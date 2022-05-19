@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@100;300&display=swap');
+
+.profilePage {
+    margin: 30px 20px;
+
+    & .wallPaper {
+        height: 400px;
+        margin-bottom: 15px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url("https://image.shutterstock.com/image-vector/digital-wallet-icon-made-currency-260nw-1734412019.jpg");
+    }
+
+    & .nav-link.active {
+        color: orange !important;
+        background-color: transparent;
+        border-radius: 0px;
+        border-left: 3px solid orange;
+    }
+
+    & .nav-link {
+        font-weight: 500;
+        font-size: 18px;
+        border-radius: 0px;
+        border-left: 2px solid #8892B0;
+        transition: 0.3s eas-in-out;
+        color: #8892B0;
+
+        &:hover {
+            color: orange;
+        }
+    }
+
+
+    & label {
+        //padding-right: 15px;
+        text-transform: capitalize;
+        font-size: 0.925em;
+        font-weight: bold;
+        color: #1a1a1a;
+        padding-top: 0.5em;
+        display: inline-block;
+    }
+
+    & .sumary {
+
+        margin-bottom: 20px;
+
+        &__container {
+
+            background-color: rgb(49, 47, 47);
+            padding: 1.25rem;
+            border: 3px solid #727478;
+            border-radius: 15px;
+        }
+
+        &__info {
+            display: flex;
+        }
+
+        &__pie {
+            //margin-left: 15px;
+            height: max-content;
+            background-color: #ffffff;
+            border-radius: 10px;
+
+            border: 1px solid bisque;
+        }
+
+        &__revenue {
+            margin-left: 15px;
+            width: fit-content;
+            height: 168px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            border: 1px solid bisque;
+        }
+
+        &__label {
+            color: #574848;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 650;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+
+        &__value {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
+            color: #333333;
+            font-size: 36px;
+        }
+    }
+
+    & .profileInfo {
+        box-sizing: border-box;
+        margin: 0;
+        min-width: 0;
+        margin-bottom: 20px;
+
+        &__form{
+            background-color: #ffffff;
+        }
+
+        & form {
+            
+            padding: 15px;
+
+            & div {
+                display: flex;
+                align-items: center;
+                margin-top: 6px;
+
+                & input {
+
+                    width: fit-content;
+                    border-radius: 0.4rem;
+                }
+            }
+
+
+        }
+
+        & .form--disabled {
+
+            & input {
+                display: block;
+                margin: 0;
+                padding: 10px 20px;
+                color: inherit;
+                background-color: #ffffff;
+                font-family: inherit;
+                font-size: 20px;
+                font-weight: inherit;
+                line-height: 1.1;
+                border: none;
+                border-radius: 0.4rem;
+                transition: box-shadow var(--transitionDuration);
+
+                &::placeholder {
+                    color: #B0BEC5;
+                }
+
+                &:focus {
+                    outline: none;
+                    box-shadow: 0.2rem 0.8rem 1.6rem var(--colorPrimary600);
+                }
+            }
+
+            & input:focus {
+                border-color: #888
+            }
+
+            & button {
+                display: none;
+            }
+
+        }
+
+        & .form--enabled {
+
+            & input {
+                display: block;
+                width: 30%;
+                margin: 5px 0;
+                padding: 12px 15px;
+                border-radius: 5px;
+                //border: 1px solid #efefef;
+                outline: none;
+                -webkit-appearance: none;
+                transition: all 0.2s ease-in-out;
+            }
+
+        }
+
+        & .btnSave {
+            font-family: Hack, monospace;
+            background: #00FF00;
+            color: #291f1f;
+            cursor: pointer;
+            font-size: 18px;
+            padding: 12px;
+            border: 0;
+            transition: all 0.5s;
+            border-radius: 10px;
+            box-shadow: 0px 1px 6px #228B22;
+            position: relative;
+
+            &:hover {
+                background: #00FF00;
+                transition: all 0.5s;
+                border-radius: 10px;
+                box-shadow: 0px 6px 15px #228B22;
+                // padding: 13px;
+
+                &::after {
+                    opacity: 1;
+                    transition: all 0.5s;
+
+                }
+            }
+        }
+
+        &__header{
+            background-color: orange;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            opacity: 0.8;
+        }
+
+        &__title {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 72px;
+            /* identical to box height */
+
+            color: #000000;
+        }
+
+        &__container {
+            box-sizing: border-box;
+            margin: 0;
+            min-width: 0;
+            position: relative;
+            background-color: #EAEAEA;
+            padding: 1.25rem;
+            display: grid;
+            grid-auto-rows: auto;
+            grid-row-gap: 20px;
+            font-family: 'Inter var', sans-serif;
+            border: 1px solid rgb(21, 20, 20);
+            border-radius: 10px;
+        }
+
+        &__unChangeInfo {
+            display: flex;
+            justify-content: space-evenly;
+
+            & div {
+                text-transform: capitalize;
+                font-size: 20px;
+                font-weight: 550;
+            }
+        }
+    }
+
+    & canvas {
+        margin: 30px 0px;
+    }
+
+    & .btnEdit {
+        font-family: Hack, monospace;
+        background: #0F0F6D;
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 18px;
+        padding: 12px;
+        border: 0;
+        transition: all 0.5s;
+        border-radius: 10px;
+
+        position: relative;
+
+        &:hover {
+            background: #2b2bff;
+            transition: all 0.5s;
+            border-radius: 10px;
+            box-shadow: 0px 6px 15px #0000ff61;
+            // padding: 13px;
+
+            &::after {
+                opacity: 1;
+                transition: all 0.5s;
+
+            }
+        }
+    }
+}

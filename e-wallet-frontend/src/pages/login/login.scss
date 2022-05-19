@@ -1,0 +1,323 @@
+@use "../../scss/"as *;
+
+.login {
+  .invalid-feedback{
+    margin-top: 8px;
+    display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 42px;
+  }
+  
+  background: #F7F7FC;
+  border-radius: 16px;
+
+  &__image {
+
+    height: 100vh;
+    background: url("https://c8.alamy.com/comp/T6N4D0/e-wallet-technology-payment-concept-with-team-people-and-gold-coin-money-pay-use-app-or-apps-model-vector-illustration-T6N4D0.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px 0px 0px 16px;
+
+    @include tablet {
+      height: 50% !important;
+      width: 100%;
+    }
+  }
+
+  &__right {
+    padding-top: 10%;
+    padding-left: 120px !important;
+    justify-content: center;
+    align-items: center;
+    // text-align: left;
+    @include tablet {
+      
+
+    }
+
+    &__subtitle {
+      display: flex;
+      margin-top: 30px;
+      @include tablet {
+        top: 24% !important;
+
+
+
+      }
+    }
+  }
+
+  &__right__title {
+   
+    
+
+    @include tablet {
+      
+
+    }
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+
+  }
+
+
+  &__right__subtitle__left {
+    
+    margin-right: 15px;
+    @include tablet {
+      
+
+    }
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #000000;
+  }
+
+  &__right__subtitle__right {
+   
+
+    @include tablet {
+      
+    }
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #1D9BF0;
+  }
+
+  &__right__email {
+    margin-top: 60px;
+    @include tablet {
+
+      top: 30% !important;
+
+    }
+  }
+
+  &__right__email_label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 21px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #000000;
+  }
+
+  &__right__input {
+    margin-top: 8px !important;
+    padding: 5% !important;
+    background: #FFFFFF;
+    border: 2px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 60px;
+    width: 402px !important;
+    // left: 733px;
+    // top: 332px;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    @include tablet {
+      // height: 30px;
+      // width: 200px;
+    }
+
+    &::placeholder {
+      position: absolute;
+      left: 5%;
+
+      top: 35%;
+
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      /* identical to box height */
+
+      display: flex;
+      align-items: center;
+
+      color: #000000;
+
+      opacity: 0.4;
+    }
+
+  }
+
+  &__right__password {
+    margin-top: 50px;
+
+    @include tablet {
+      top: 50% !important;
+    }
+
+    &__label {
+
+
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 21px;
+      /* identical to box height */
+
+
+      color: #000000;
+
+
+    }
+
+    &__input {
+      margin-top: 8px;
+      padding: 5% !important;
+      background: #FFFFFF;
+      border: 2px solid #E5E5E5;
+      box-sizing: border-box;
+      border-radius: 8px;
+      height: 60px;
+      width: 402px !important;
+      // left: 733px;
+      // top: 332px;
+      border-radius: 8px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+
+      @include tablet {
+        height: 30px !important;
+        width: 200px !important;
+      }
+
+      &::placeholder {
+        position: absolute;
+        left: 5%;
+
+        top: 35%;
+
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+
+        opacity: 0.4;
+      }
+
+
+    }
+
+    &__vector {
+      position: absolute;
+
+      right: 5%;
+      top: 72%;
+
+
+      background: #4B4B4B;
+      opacity: 0.6;
+    }
+  }
+
+  &_right__rememberme {
+    position: absolute;
+    left: 59.11%;
+    right: 27.66%;
+    top: 54.15%;
+    bottom: 43.17%;
+
+    &__text {
+
+
+      border-radius: nullpx;
+
+
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      /* identical to box height */
+
+      display: flex;
+      align-items: center;
+
+      color: #000000;
+    }
+  }
+
+  &__right__button {
+    margin-top: 40px;
+    height: 60px;
+    width: 402px;
+    background: #1D9BF0;
+    border-radius: 8px;
+
+    @include tablet {
+      top: 80% !important;
+      right: 0% !important;
+      // width: 200px;
+      // height: 30px;
+    }
+
+    span {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      /* identical to box height */
+
+
+      text-transform: uppercase;
+
+      color: #FFFFFF;
+    }
+  }
+}

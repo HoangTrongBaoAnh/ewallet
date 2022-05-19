@@ -1,0 +1,94 @@
+.flex {
+    display: flex;
+}
+
+.isLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 5px;
+    &__text {
+        padding-right: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        
+        
+
+        /* Grey */
+
+        color: grey;
+    }
+
+    &__image{
+        height: 50px;
+        width: 50px;
+        border-radius: 10px;
+        background-position: top;
+        background-size: cover;
+        background-image: url('https://cdn-icons-png.flaticon.com/512/17/17004.png');    }
+}
+
+.p-12 {
+    padding: 3rem;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.max-w-6xl {
+    max-width: 94rem;
+    /* 1152px */
+}
+
+.text-2xl {
+    font-size: 1.5rem
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.text-gray-400 {
+    color: rgb(156 163 175);
+}
+
+.text-gray-700 {
+    --tw-text-opacity: 1;
+    color: rgba(55, 65, 81, var(--tw-text-opacity));
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-4 {
+    margin-left: 4px;
+}

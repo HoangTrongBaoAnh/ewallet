@@ -1,0 +1,159 @@
+.transaction {
+    & textarea {
+        background-color: rgb(229 231 235) !important;
+        border-radius: 10px !important;
+
+        &:focus {
+            background-color: #fff !important;
+        }
+    }
+
+    & button {
+        border-radius: 10px;
+        font-size: 20px;
+
+        
+    }
+
+    input {
+        background-color: rgb(229 231 235) !important;
+        border-radius: 10px !important;
+
+        &:focus {
+            background-color: #fff !important;
+        }
+    }
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.icon {
+    width: 4rem;
+    height: 4rem;
+}
+
+.bg-green {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 250, 229, var(--tw-bg-opacity));
+    border-radius: 0.5rem;
+}
+
+
+.w-10 {
+    width: 15%;
+}
+
+.h-10 {
+    height: 10%;
+}
+
+.button {
+    margin-top: 30px;
+
+    &button {
+        border-radius: 10px !important;
+    }
+
+    &__success {
+        font-family: Hack, monospace;
+        background: #00FF00;
+        color: #291f1f;
+        cursor: pointer;
+        font-size: 18px;
+        padding: 12px;
+        border: 0;
+        transition: all 0.5s;
+        border-radius: 10px;
+        box-shadow: 0px 1px 6px #228B22;
+        position: relative;
+
+        &:hover {
+            background: #00FF00;
+            transition: all 0.5s;
+            border-radius: 10px;
+            box-shadow: 0px 6px 15px #228B22;
+            // padding: 13px;
+
+            &::after {
+                opacity: 1;
+                transition: all 0.5s;
+
+            }
+        }
+    }
+}
+
+
+
+.transactionModal {
+    &__content {
+        text-align: center;
+
+        &__input {
+            &__label {
+                font-weight: 600;
+                font-size: 30px;
+            }
+
+            &__searchbox {
+                position: relative;
+                text-align: center;
+                justify-content: center;
+
+                & input {
+                    width: 90%;
+                    height: 70px;
+                    transition: 0.1 ease;
+
+                    &:focus {
+                        top: 0px;
+                        left: 10px;
+                        font-size: 13px;
+                        opacity: 1;
+
+                    }
+
+                }
+
+                & i {
+                    font-weight: 800;
+                    font-size: 20px;
+                    position: absolute;
+                    padding-right: 50px;
+                    padding-top: 25px;
+                    right: 0;
+                }
+
+            }
+        }
+
+        &__list {
+            margin-top: 20px;
+            border-radius: 10px;
+            background-color: beige;
+            height: 150px;
+            overflow: auto;
+            border: 1px solid black;
+
+            &__item {
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                display: flex;
+                height: 50px;
+                font-weight: 500;
+                font-size: 20px;
+
+                &:hover {
+                    background-color: azure;
+                }
+
+                &__right {
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+}
