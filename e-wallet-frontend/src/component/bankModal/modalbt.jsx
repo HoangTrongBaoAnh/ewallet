@@ -90,11 +90,11 @@ const StepForm = ({ getwallets, setshow, show, user, setbankactive, bankactive }
             toastsucc.current.notify("You have add card successfully");
         }
         catch (err) {
-            console.log(err.message);
+            console.log(err);
             seterr(true);
-            console.log(err.response.data);
+            //console.log(err.response.data);
             setshow(false);
-            toasterr.current.notify(err.response.data.message);
+            toasterr.current.notify(err);
         }
     }
 
@@ -129,7 +129,7 @@ const StepForm = ({ getwallets, setshow, show, user, setbankactive, bankactive }
                         toastsucc.current.notify("Please check your phone")
                     }
                     catch (err) {
-                        toasterr.current.notify(err.message.slice(16));
+                        toasterr.current.notify(err.slice(16));
                         setloading(false);
                         console.log(err)
                     }

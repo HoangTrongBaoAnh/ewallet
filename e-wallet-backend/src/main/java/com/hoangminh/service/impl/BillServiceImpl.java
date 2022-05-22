@@ -68,7 +68,7 @@ public class BillServiceImpl implements IBillService{
 	@Override
 	public String setactivebill(long id) {
 		BillInfo billInfo = billinfoRepository.findById(id).orElseThrow();
-		billInfo.setStatus(true);
+		billInfo.setStatus(!billInfo.getStatus());
 		// TODO Auto-generated method stub
 		billinfoRepository.save(billInfo);
 		return "set active";

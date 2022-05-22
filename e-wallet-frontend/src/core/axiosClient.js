@@ -1,21 +1,22 @@
+import history from '../router/history';
 const axios = require("axios");
 const apiUrl = "http://localhost:8080/api/";
 
-const getHeaders = () => {
-  let token = window.localStorage.getItem("token");
-  if (token == null) {
-    return {'Content-Type': 'application/json'};
-  }
-  return { Authorization: "Bearer " + token,'Content-Type': 'application/json' };
-}
 const axiosClient = axios.create({
     baseURL:apiUrl,
-    headers: getHeaders(),
+    headers: {
+        'Content-Type': 'application/json',
+    },
 });
 
 
 //axiosClient.interceptors.request.use(async(config)=>config);
-axiosClient.interceptors.request.use(async (config) => config);
+axiosClient.interceptors.request.use(function (config) {
+    const token = localStorage.getItem('token');
+    config.headers.Authorization =  token ? `Bearer ${token}` : '';
+
+    return config;
+});
 
 axiosClient.interceptors.response.use(
     (res)=>{
@@ -25,10 +26,18 @@ axiosClient.interceptors.response.use(
         return res;
     },
     (error)=>{
-        if (error.response?.status === 400 || error.response.status === 404) {         
+        if (error.response.status === 400 || error.response.status === 404) {
+            //console.log(error.response.data)  
+            //return Promise.reject(error.response.data.message);
             throw error.response.data.message;       
         }
-        throw error; 
+        else if(error.response.status === 401){
+            // navigate('/login');
+            window.alert("Please sign in before continue!");
+            history.replace("/login");
+            //throw error
+        }
+        return Promise.reject(error);
     }
 );
 

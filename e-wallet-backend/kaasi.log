@@ -6550,3 +6550,1106 @@
 2022-05-18 15:24:37 INFO  CustomerController:35 - Success!
 2022-05-18 15:24:37 INFO  CustomerController:35 - Success!
 2022-05-18 15:24:38 INFO  TransactionController:77 - Success!
+2022-05-20 09:54:04 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-20 09:54:21 INFO  CustomerController:50 - Success!
+2022-05-20 09:54:22 INFO  CustomerController:35 - Success!
+2022-05-20 09:54:22 INFO  CustomerController:35 - Success!
+2022-05-20 09:54:29 INFO  CustomerController:35 - Success!
+2022-05-20 09:54:29 INFO  CustomerController:35 - Success!
+2022-05-20 09:54:29 INFO  TransactionController:77 - Success!
+2022-05-20 09:54:44 INFO  CustomerController:56 - Success!
+2022-05-20 09:54:49 INFO  CustomerController:134 - Success!
+2022-05-20 09:54:50 INFO  CustomerController:145 - Success!
+2022-05-20 09:54:52 INFO  CustomerController:183 - Success!
+2022-05-20 09:54:53 ERROR CustomerController:186 - Authenticate
+2022-05-20 09:55:16 INFO  CustomerController:134 - Success!
+2022-05-20 09:55:16 INFO  CustomerController:145 - Success!
+2022-05-20 09:55:17 INFO  CustomerController:183 - Success!
+2022-05-20 09:55:18 ERROR CustomerController:186 - Authenticate
+2022-05-20 09:57:32 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-20 09:57:39 INFO  CustomerController:134 - Success!
+2022-05-20 09:57:40 INFO  CustomerController:145 - Success!
+2022-05-20 09:57:41 INFO  CustomerController:183 - Success!
+2022-05-20 14:19:09 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-20 14:28:52 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-20 14:32:15 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-20 14:34:51 INFO  CustomerController:35 - Success!
+2022-05-20 14:34:51 INFO  CustomerController:35 - Success!
+2022-05-20 14:34:51 INFO  TransactionController:77 - Success!
+2022-05-20 14:34:53 INFO  CustomerController:35 - Success!
+2022-05-20 14:34:53 INFO  CustomerController:35 - Success!
+2022-05-20 14:34:53 INFO  TransactionController:77 - Success!
+2022-05-20 14:35:03 INFO  TransactionController:77 - Success!
+2022-05-20 14:35:08 INFO  CustomerController:35 - Success!
+2022-05-20 14:35:08 INFO  CustomerController:35 - Success!
+2022-05-20 14:35:08 INFO  TransactionController:77 - Success!
+2022-05-20 14:35:09 INFO  TransactionController:77 - Success!
+2022-05-20 14:35:11 INFO  CustomerController:35 - Success!
+2022-05-20 14:35:11 INFO  CustomerController:35 - Success!
+2022-05-20 14:35:11 INFO  TransactionController:77 - Success!
+2022-05-20 14:35:13 INFO  CustomerController:56 - Success!
+2022-05-20 14:35:15 INFO  TransactionController:77 - Success!
+2022-05-20 14:35:24 INFO  CustomerController:56 - Success!
+2022-05-20 14:35:35 INFO  CustomerController:56 - Success!
+2022-05-20 14:35:36 INFO  CustomerController:56 - Success!
+2022-05-20 14:35:37 INFO  CustomerController:56 - Success!
+2022-05-20 14:35:38 INFO  CustomerController:56 - Success!
+2022-05-20 14:35:38 INFO  CustomerController:56 - Success!
+2022-05-20 14:35:39 INFO  CustomerController:56 - Success!
+2022-05-20 14:35:43 INFO  CustomerController:56 - Success!
+2022-05-20 14:35:49 INFO  CustomerController:35 - Success!
+2022-05-20 14:35:49 INFO  CustomerController:35 - Success!
+2022-05-20 14:35:50 INFO  TransactionController:77 - Success!
+2022-05-20 14:35:52 INFO  CustomerController:56 - Success!
+2022-05-20 14:36:10 INFO  CustomerController:134 - Success!
+2022-05-20 14:36:12 INFO  CustomerController:145 - Success!
+2022-05-20 14:36:14 INFO  CustomerController:183 - Success!
+2022-05-20 14:36:29 INFO  CustomerController:156 - Success!
+2022-05-20 14:36:29 INFO  CustomerController:56 - Success!
+2022-05-20 14:36:35 INFO  TransactionController:60 - Success!
+2022-05-20 14:36:35 INFO  CustomerController:35 - Success!
+2022-05-20 14:36:35 INFO  TransactionController:77 - Success!
+2022-05-20 14:36:39 INFO  TransactionController:77 - Success!
+2022-05-20 14:36:49 INFO  CustomerController:101 - Success!
+2022-05-20 14:36:52 INFO  CustomerController:56 - Success!
+2022-05-20 14:36:53 INFO  CustomerController:73 - Success!
+2022-05-20 14:36:54 INFO  TransactionController:49 - Success!
+2022-05-20 14:36:55 INFO  CustomerController:73 - Success!
+2022-05-20 14:36:58 INFO  CustomerController:56 - Success!
+2022-05-20 14:36:59 INFO  CustomerController:101 - Success!
+2022-05-20 21:15:02 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-20 22:02:55 INFO  CustomerController:35 - Success!
+2022-05-20 22:02:55 INFO  CustomerController:35 - Success!
+2022-05-20 22:02:56 INFO  TransactionController:77 - Success!
+2022-05-20 22:03:06 INFO  CustomerController:50 - Success!
+2022-05-20 22:03:07 INFO  CustomerController:35 - Success!
+2022-05-20 22:03:07 INFO  CustomerController:35 - Success!
+2022-05-20 22:03:07 INFO  TransactionController:77 - Success!
+2022-05-20 22:03:17 INFO  CustomerController:50 - Success!
+2022-05-20 22:03:17 INFO  CustomerController:35 - Success!
+2022-05-20 22:03:17 INFO  CustomerController:35 - Success!
+2022-05-20 22:10:28 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-20 22:11:02 INFO  CustomerController:35 - Success!
+2022-05-20 22:11:02 INFO  CustomerController:35 - Success!
+2022-05-20 22:11:02 INFO  TransactionController:77 - Success!
+2022-05-20 22:11:14 INFO  CustomerController:73 - Success!
+2022-05-20 22:11:15 INFO  CustomerController:56 - Success!
+2022-05-20 22:11:17 INFO  CustomerController:35 - Success!
+2022-05-20 22:11:17 INFO  CustomerController:35 - Success!
+2022-05-20 22:11:17 INFO  TransactionController:77 - Success!
+2022-05-20 22:11:18 INFO  TransactionController:77 - Success!
+2022-05-20 22:11:20 INFO  TransactionController:77 - Success!
+2022-05-20 22:11:23 INFO  CustomerController:35 - Success!
+2022-05-20 22:11:23 INFO  CustomerController:35 - Success!
+2022-05-20 22:11:23 INFO  TransactionController:77 - Success!
+2022-05-20 22:11:27 INFO  CustomerController:56 - Success!
+2022-05-20 22:11:27 INFO  CustomerController:56 - Success!
+2022-05-20 22:11:28 INFO  CustomerController:56 - Success!
+2022-05-20 22:11:29 INFO  TransactionController:77 - Success!
+2022-05-20 22:11:38 INFO  CustomerController:56 - Success!
+2022-05-20 22:11:42 INFO  TransactionController:77 - Success!
+2022-05-20 22:11:43 INFO  TransactionController:77 - Success!
+2022-05-20 22:11:50 INFO  CustomerController:56 - Success!
+2022-05-20 22:11:52 INFO  CustomerController:56 - Success!
+2022-05-20 22:11:58 INFO  CustomerController:35 - Success!
+2022-05-20 22:11:58 INFO  CustomerController:35 - Success!
+2022-05-20 22:11:58 INFO  TransactionController:77 - Success!
+2022-05-20 22:11:59 INFO  TransactionController:77 - Success!
+2022-05-20 22:22:43 INFO  CustomerController:35 - Success!
+2022-05-20 22:22:43 INFO  CustomerController:35 - Success!
+2022-05-20 22:22:43 INFO  TransactionController:77 - Success!
+2022-05-20 22:22:44 INFO  TransactionController:77 - Success!
+2022-05-20 22:22:47 INFO  CustomerController:35 - Success!
+2022-05-20 22:22:47 INFO  CustomerController:35 - Success!
+2022-05-20 22:22:47 INFO  TransactionController:77 - Success!
+2022-05-20 22:22:50 INFO  TransactionController:77 - Success!
+2022-05-20 22:22:57 INFO  CustomerController:35 - Success!
+2022-05-20 22:22:57 INFO  CustomerController:35 - Success!
+2022-05-20 22:22:57 INFO  TransactionController:77 - Success!
+2022-05-20 22:43:03 INFO  CustomerController:35 - Success!
+2022-05-20 22:43:03 INFO  CustomerController:35 - Success!
+2022-05-20 22:43:03 INFO  TransactionController:77 - Success!
+2022-05-20 22:43:13 INFO  TransactionController:77 - Success!
+2022-05-20 22:43:15 INFO  CustomerController:50 - Success!
+2022-05-20 22:43:15 INFO  CustomerController:35 - Success!
+2022-05-20 22:43:15 INFO  CustomerController:35 - Success!
+2022-05-20 22:43:15 INFO  TransactionController:77 - Success!
+2022-05-20 22:43:24 INFO  CustomerController:50 - Success!
+2022-05-20 22:43:24 INFO  CustomerController:35 - Success!
+2022-05-20 22:43:24 INFO  CustomerController:35 - Success!
+2022-05-20 22:43:37 INFO  CustomerController:50 - Success!
+2022-05-20 22:43:37 INFO  CustomerController:35 - Success!
+2022-05-20 22:43:37 INFO  CustomerController:35 - Success!
+2022-05-20 22:44:51 INFO  CustomerController:50 - Success!
+2022-05-20 22:44:51 INFO  CustomerController:35 - Success!
+2022-05-20 22:44:51 INFO  CustomerController:35 - Success!
+2022-05-20 22:45:03 INFO  CustomerController:35 - Success!
+2022-05-20 22:45:03 INFO  CustomerController:35 - Success!
+2022-05-20 22:45:03 INFO  TransactionController:77 - Success!
+2022-05-20 22:45:12 INFO  TransactionController:77 - Success!
+2022-05-20 22:45:18 INFO  CustomerController:50 - Success!
+2022-05-20 22:45:19 INFO  CustomerController:35 - Success!
+2022-05-20 22:45:19 INFO  CustomerController:35 - Success!
+2022-05-20 22:48:20 INFO  CustomerController:50 - Success!
+2022-05-20 22:48:21 INFO  CustomerController:35 - Success!
+2022-05-20 22:48:21 INFO  CustomerController:35 - Success!
+2022-05-20 22:51:45 INFO  CustomerController:35 - Success!
+2022-05-20 22:51:45 INFO  CustomerController:35 - Success!
+2022-05-20 22:51:46 INFO  TransactionController:77 - Success!
+2022-05-20 22:51:59 INFO  CustomerController:50 - Success!
+2022-05-20 22:52:00 INFO  CustomerController:35 - Success!
+2022-05-20 22:52:00 INFO  CustomerController:35 - Success!
+2022-05-20 22:53:24 INFO  CustomerController:35 - Success!
+2022-05-20 22:53:24 INFO  CustomerController:35 - Success!
+2022-05-20 22:53:51 INFO  CustomerController:35 - Success!
+2022-05-20 22:53:51 INFO  CustomerController:35 - Success!
+2022-05-20 22:53:52 INFO  TransactionController:77 - Success!
+2022-05-20 22:54:00 INFO  CustomerController:50 - Success!
+2022-05-20 22:54:01 INFO  CustomerController:35 - Success!
+2022-05-20 22:54:01 INFO  CustomerController:35 - Success!
+2022-05-20 22:56:30 INFO  CustomerController:35 - Success!
+2022-05-20 22:56:30 INFO  CustomerController:35 - Success!
+2022-05-20 22:56:31 INFO  TransactionController:77 - Success!
+2022-05-20 22:56:45 INFO  CustomerController:50 - Success!
+2022-05-20 22:56:46 INFO  CustomerController:35 - Success!
+2022-05-20 22:56:46 INFO  CustomerController:35 - Success!
+2022-05-20 22:56:46 INFO  TransactionController:77 - Success!
+2022-05-20 22:57:02 INFO  CustomerController:50 - Success!
+2022-05-20 22:57:03 INFO  CustomerController:35 - Success!
+2022-05-20 22:57:03 INFO  CustomerController:35 - Success!
+2022-05-20 22:57:03 INFO  TransactionController:77 - Success!
+2022-05-20 22:57:16 INFO  CustomerController:35 - Success!
+2022-05-20 22:57:16 INFO  CustomerController:35 - Success!
+2022-05-20 22:57:17 INFO  TransactionController:77 - Success!
+2022-05-20 22:57:32 INFO  CustomerController:50 - Success!
+2022-05-20 22:57:33 INFO  CustomerController:35 - Success!
+2022-05-20 22:57:33 INFO  CustomerController:35 - Success!
+2022-05-20 22:57:54 INFO  CustomerController:35 - Success!
+2022-05-20 22:57:54 INFO  CustomerController:35 - Success!
+2022-05-20 22:57:55 INFO  TransactionController:77 - Success!
+2022-05-20 22:58:00 INFO  TransactionController:77 - Success!
+2022-05-20 22:58:04 INFO  CustomerController:35 - Success!
+2022-05-20 22:58:04 INFO  CustomerController:35 - Success!
+2022-05-20 22:58:05 INFO  TransactionController:77 - Success!
+2022-05-20 22:58:05 INFO  TransactionController:77 - Success!
+2022-05-20 22:58:08 INFO  TransactionController:77 - Success!
+2022-05-20 22:58:44 INFO  CustomerController:35 - Success!
+2022-05-20 22:58:44 INFO  CustomerController:35 - Success!
+2022-05-20 22:58:45 INFO  TransactionController:77 - Success!
+2022-05-20 22:58:58 INFO  CustomerController:35 - Success!
+2022-05-20 22:58:58 INFO  CustomerController:35 - Success!
+2022-05-20 22:58:59 INFO  TransactionController:77 - Success!
+2022-05-20 23:02:34 INFO  CustomerController:35 - Success!
+2022-05-20 23:02:34 INFO  CustomerController:35 - Success!
+2022-05-20 23:05:41 INFO  CustomerController:50 - Success!
+2022-05-20 23:05:42 INFO  CustomerController:35 - Success!
+2022-05-20 23:05:42 INFO  CustomerController:35 - Success!
+2022-05-20 23:05:43 INFO  TransactionController:77 - Success!
+2022-05-20 23:05:59 INFO  CustomerController:35 - Success!
+2022-05-20 23:05:59 INFO  CustomerController:35 - Success!
+2022-05-20 23:05:59 INFO  TransactionController:77 - Success!
+2022-05-20 23:07:35 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-20 23:07:52 INFO  CustomerController:50 - Success!
+2022-05-20 23:07:53 INFO  CustomerController:35 - Success!
+2022-05-20 23:07:53 INFO  CustomerController:35 - Success!
+2022-05-20 23:07:53 INFO  TransactionController:77 - Success!
+2022-05-20 23:07:59 INFO  TransactionController:77 - Success!
+2022-05-20 23:08:00 INFO  CustomerController:35 - Success!
+2022-05-20 23:08:00 INFO  CustomerController:35 - Success!
+2022-05-20 23:08:00 INFO  TransactionController:77 - Success!
+2022-05-20 23:08:01 INFO  TransactionController:77 - Success!
+2022-05-21 15:14:45 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-21 15:15:38 INFO  CustomerController:35 - Success!
+2022-05-21 15:15:38 INFO  CustomerController:35 - Success!
+2022-05-21 15:15:39 INFO  TransactionController:77 - Success!
+2022-05-21 15:25:36 INFO  TransactionController:77 - Success!
+2022-05-21 15:25:45 INFO  CustomerController:35 - Success!
+2022-05-21 15:25:45 INFO  CustomerController:35 - Success!
+2022-05-21 15:25:45 INFO  TransactionController:77 - Success!
+2022-05-21 15:25:55 INFO  TransactionController:60 - Success!
+2022-05-21 15:25:55 INFO  CustomerController:35 - Success!
+2022-05-21 15:25:55 INFO  TransactionController:77 - Success!
+2022-05-21 15:25:59 INFO  TransactionController:60 - Success!
+2022-05-21 15:25:59 INFO  CustomerController:35 - Success!
+2022-05-21 15:25:59 INFO  TransactionController:77 - Success!
+2022-05-21 15:26:03 INFO  TransactionController:77 - Success!
+2022-05-21 15:26:04 INFO  TransactionController:77 - Success!
+2022-05-21 15:50:19 INFO  TransactionController:77 - Success!
+2022-05-21 15:57:04 INFO  CustomerController:35 - Success!
+2022-05-21 15:57:04 INFO  CustomerController:35 - Success!
+2022-05-21 15:57:04 INFO  TransactionController:77 - Success!
+2022-05-21 15:57:55 INFO  CustomerController:35 - Success!
+2022-05-21 15:57:55 INFO  CustomerController:35 - Success!
+2022-05-21 15:57:55 INFO  TransactionController:77 - Success!
+2022-05-21 15:58:04 INFO  CustomerController:35 - Success!
+2022-05-21 15:58:04 INFO  CustomerController:35 - Success!
+2022-05-21 15:58:05 INFO  TransactionController:77 - Success!
+2022-05-21 15:58:13 INFO  TransactionController:77 - Success!
+2022-05-21 15:59:38 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-21 15:59:43 INFO  TransactionController:77 - Success!
+2022-05-21 15:59:48 INFO  CustomerController:50 - Success!
+2022-05-21 15:59:49 INFO  CustomerController:35 - Success!
+2022-05-21 15:59:49 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 15:59:49 INFO  CustomerController:35 - Success!
+2022-05-21 15:59:49 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 16:01:59 INFO  CustomerController:50 - Success!
+2022-05-21 16:02:00 INFO  CustomerController:35 - Success!
+2022-05-21 16:02:00 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 16:02:00 INFO  CustomerController:35 - Success!
+2022-05-21 16:02:00 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 16:02:09 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-21 16:02:27 INFO  CustomerController:50 - Success!
+2022-05-21 16:02:28 INFO  CustomerController:35 - Success!
+2022-05-21 16:02:28 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 16:02:28 INFO  CustomerController:35 - Success!
+2022-05-21 16:02:28 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 16:03:01 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-21 16:03:03 INFO  CustomerController:50 - Success!
+2022-05-21 16:03:03 INFO  CustomerController:35 - Success!
+2022-05-21 16:03:03 INFO  CustomerController:35 - Success!
+2022-05-21 16:03:04 INFO  TransactionController:77 - Success!
+2022-05-21 16:03:11 INFO  CustomerController:35 - Success!
+2022-05-21 16:03:11 INFO  CustomerController:35 - Success!
+2022-05-21 16:03:12 INFO  TransactionController:77 - Success!
+2022-05-21 16:04:02 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-21 16:04:44 INFO  CustomerController:50 - Success!
+2022-05-21 16:04:44 INFO  CustomerController:35 - Success!
+2022-05-21 16:04:44 INFO  CustomerController:35 - Success!
+2022-05-21 16:04:45 INFO  TransactionController:77 - Success!
+2022-05-21 16:05:39 INFO  TransactionController:77 - Success!
+2022-05-21 16:05:40 INFO  CustomerController:35 - Success!
+2022-05-21 16:05:40 INFO  CustomerController:35 - Success!
+2022-05-21 16:05:41 INFO  TransactionController:77 - Success!
+2022-05-21 16:05:47 INFO  TransactionController:77 - Success!
+2022-05-21 16:05:48 INFO  TransactionController:77 - Success!
+2022-05-21 16:05:49 INFO  CustomerController:35 - Success!
+2022-05-21 16:05:49 INFO  CustomerController:35 - Success!
+2022-05-21 16:05:49 INFO  TransactionController:77 - Success!
+2022-05-21 16:05:50 INFO  TransactionController:77 - Success!
+2022-05-21 16:05:51 INFO  CustomerController:56 - Success!
+2022-05-21 16:05:52 INFO  CustomerController:73 - Success!
+2022-05-21 16:05:53 INFO  CustomerController:101 - Success!
+2022-05-21 16:09:30 INFO  CustomerController:35 - Success!
+2022-05-21 16:09:30 INFO  CustomerController:35 - Success!
+2022-05-21 16:09:30 INFO  TransactionController:77 - Success!
+2022-05-21 16:09:55 INFO  CustomerController:35 - Success!
+2022-05-21 16:09:55 INFO  CustomerController:35 - Success!
+2022-05-21 16:09:55 INFO  TransactionController:77 - Success!
+2022-05-21 16:10:03 INFO  CustomerController:35 - Success!
+2022-05-21 16:10:03 INFO  CustomerController:35 - Success!
+2022-05-21 16:10:03 INFO  TransactionController:77 - Success!
+2022-05-21 16:10:05 INFO  TransactionController:77 - Success!
+2022-05-21 16:10:18 INFO  TransactionController:77 - Success!
+2022-05-21 16:10:20 INFO  CustomerController:35 - Success!
+2022-05-21 16:10:20 INFO  CustomerController:35 - Success!
+2022-05-21 16:10:20 INFO  TransactionController:77 - Success!
+2022-05-21 16:10:21 INFO  TransactionController:77 - Success!
+2022-05-21 16:10:24 INFO  CustomerController:35 - Success!
+2022-05-21 16:10:24 INFO  CustomerController:35 - Success!
+2022-05-21 16:10:25 INFO  TransactionController:77 - Success!
+2022-05-21 18:20:27 INFO  CustomerController:35 - Success!
+2022-05-21 18:20:27 INFO  CustomerController:35 - Success!
+2022-05-21 18:20:28 INFO  TransactionController:77 - Success!
+2022-05-21 18:21:33 INFO  CustomerController:35 - Success!
+2022-05-21 18:21:33 INFO  CustomerController:35 - Success!
+2022-05-21 18:21:33 INFO  TransactionController:77 - Success!
+2022-05-21 18:21:53 INFO  CustomerController:35 - Success!
+2022-05-21 18:21:53 INFO  CustomerController:35 - Success!
+2022-05-21 18:21:53 INFO  TransactionController:77 - Success!
+2022-05-21 18:22:17 INFO  CustomerController:35 - Success!
+2022-05-21 18:22:17 INFO  CustomerController:35 - Success!
+2022-05-21 18:22:17 INFO  TransactionController:77 - Success!
+2022-05-21 18:22:45 INFO  CustomerController:35 - Success!
+2022-05-21 18:22:45 INFO  CustomerController:35 - Success!
+2022-05-21 18:22:45 INFO  TransactionController:77 - Success!
+2022-05-21 18:23:37 INFO  TransactionController:77 - Success!
+2022-05-21 18:37:41 INFO  TransactionController:77 - Success!
+2022-05-21 18:39:32 INFO  TransactionController:77 - Success!
+2022-05-21 18:39:43 INFO  TransactionController:77 - Success!
+2022-05-21 18:41:13 INFO  TransactionController:77 - Success!
+2022-05-21 18:43:58 INFO  TransactionController:77 - Success!
+2022-05-21 18:44:10 INFO  TransactionController:77 - Success!
+2022-05-21 18:44:13 INFO  CustomerController:35 - Success!
+2022-05-21 18:44:13 INFO  CustomerController:35 - Success!
+2022-05-21 18:44:14 INFO  TransactionController:77 - Success!
+2022-05-21 18:44:15 INFO  TransactionController:77 - Success!
+2022-05-21 18:44:29 INFO  TransactionController:77 - Success!
+2022-05-21 18:45:48 INFO  TransactionController:77 - Success!
+2022-05-21 18:46:12 INFO  TransactionController:77 - Success!
+2022-05-21 18:46:20 INFO  TransactionController:77 - Success!
+2022-05-21 18:48:51 INFO  TransactionController:77 - Success!
+2022-05-21 18:48:57 INFO  TransactionController:77 - Success!
+2022-05-21 18:49:00 INFO  TransactionController:77 - Success!
+2022-05-21 18:49:31 INFO  TransactionController:77 - Success!
+2022-05-21 18:50:15 INFO  TransactionController:77 - Success!
+2022-05-21 18:50:21 INFO  TransactionController:77 - Success!
+2022-05-21 18:50:26 INFO  TransactionController:77 - Success!
+2022-05-21 18:50:37 INFO  CustomerController:35 - Success!
+2022-05-21 18:50:37 INFO  CustomerController:35 - Success!
+2022-05-21 18:50:37 INFO  TransactionController:77 - Success!
+2022-05-21 18:50:42 INFO  TransactionController:77 - Success!
+2022-05-21 18:57:33 INFO  TransactionController:77 - Success!
+2022-05-21 18:57:44 INFO  TransactionController:77 - Success!
+2022-05-21 18:57:46 INFO  TransactionController:77 - Success!
+2022-05-21 19:00:26 INFO  TransactionController:77 - Success!
+2022-05-21 19:01:48 INFO  TransactionController:77 - Success!
+2022-05-21 19:02:55 INFO  CustomerController:50 - Success!
+2022-05-21 19:02:55 INFO  CustomerController:35 - Success!
+2022-05-21 19:02:55 INFO  CustomerController:35 - Success!
+2022-05-21 19:02:56 INFO  TransactionController:77 - Success!
+2022-05-21 19:03:01 INFO  CustomerController:35 - Success!
+2022-05-21 19:03:01 INFO  CustomerController:35 - Success!
+2022-05-21 19:03:01 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 19:03:01 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 19:03:09 INFO  CustomerController:50 - Success!
+2022-05-21 19:03:09 INFO  CustomerController:35 - Success!
+2022-05-21 19:03:09 INFO  CustomerController:35 - Success!
+2022-05-21 19:03:10 INFO  TransactionController:77 - Success!
+2022-05-21 19:03:13 INFO  TransactionController:77 - Success!
+2022-05-21 19:03:19 INFO  TransactionController:77 - Success!
+2022-05-21 19:03:22 INFO  TransactionController:77 - Success!
+2022-05-21 19:36:09 INFO  CustomerController:35 - Success!
+2022-05-21 19:36:09 INFO  CustomerController:35 - Success!
+2022-05-21 19:36:09 INFO  TransactionController:77 - Success!
+2022-05-21 19:38:21 INFO  CustomerController:35 - Success!
+2022-05-21 19:38:21 INFO  CustomerController:35 - Success!
+2022-05-21 19:38:22 INFO  TransactionController:77 - Success!
+2022-05-21 19:38:59 INFO  CustomerController:35 - Success!
+2022-05-21 19:38:59 INFO  CustomerController:35 - Success!
+2022-05-21 19:38:59 INFO  TransactionController:77 - Success!
+2022-05-21 19:39:14 INFO  CustomerController:35 - Success!
+2022-05-21 19:39:14 INFO  CustomerController:35 - Success!
+2022-05-21 19:39:15 INFO  TransactionController:77 - Success!
+2022-05-21 19:39:23 INFO  CustomerController:35 - Success!
+2022-05-21 19:39:23 INFO  CustomerController:35 - Success!
+2022-05-21 19:39:24 INFO  TransactionController:77 - Success!
+2022-05-21 19:42:03 INFO  CustomerController:35 - Success!
+2022-05-21 19:42:03 INFO  CustomerController:35 - Success!
+2022-05-21 19:42:03 INFO  TransactionController:77 - Success!
+2022-05-21 19:42:15 INFO  CustomerController:35 - Success!
+2022-05-21 19:42:15 INFO  CustomerController:35 - Success!
+2022-05-21 19:42:15 INFO  TransactionController:77 - Success!
+2022-05-21 20:59:10 INFO  CustomerController:35 - Success!
+2022-05-21 20:59:10 INFO  CustomerController:35 - Success!
+2022-05-21 20:59:10 INFO  TransactionController:77 - Success!
+2022-05-21 21:06:43 INFO  CustomerController:35 - Success!
+2022-05-21 21:06:43 INFO  CustomerController:35 - Success!
+2022-05-21 21:06:43 INFO  TransactionController:77 - Success!
+2022-05-21 21:07:22 INFO  CustomerController:35 - Success!
+2022-05-21 21:07:22 INFO  CustomerController:35 - Success!
+2022-05-21 21:07:22 INFO  TransactionController:77 - Success!
+2022-05-21 21:08:33 INFO  TransactionController:77 - Success!
+2022-05-21 21:08:49 INFO  CustomerController:35 - Success!
+2022-05-21 21:08:49 INFO  CustomerController:35 - Success!
+2022-05-21 21:08:49 INFO  TransactionController:77 - Success!
+2022-05-21 21:09:19 INFO  TransactionController:63 - Success!
+2022-05-21 21:11:20 INFO  TransactionController:63 - Success!
+2022-05-21 21:11:35 INFO  TransactionController:63 - Success!
+2022-05-21 21:11:35 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:12:11 INFO  TransactionController:63 - Success!
+2022-05-21 21:12:11 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:12:31 INFO  TransactionController:63 - Success!
+2022-05-21 21:12:31 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:12:35 INFO  TransactionController:63 - Success!
+2022-05-21 21:12:35 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:12:45 INFO  CustomerController:35 - Success!
+2022-05-21 21:12:45 INFO  CustomerController:35 - Success!
+2022-05-21 21:12:46 INFO  TransactionController:77 - Success!
+2022-05-21 21:12:55 INFO  TransactionController:60 - Success!
+2022-05-21 21:12:55 ERROR TransactionController:66 - com.hoangminh.exception.BadRequestException: Your balance is not enough to process this transaction
+2022-05-21 21:13:39 INFO  TransactionController:60 - Success!
+2022-05-21 21:13:40 ERROR TransactionController:66 - com.hoangminh.exception.BadRequestException: Your balance is not enough to process this transaction
+2022-05-21 21:14:17 INFO  TransactionController:60 - Success!
+2022-05-21 21:14:17 ERROR TransactionController:66 - com.hoangminh.exception.BadRequestException: Your balance is not enough to process this transaction
+2022-05-21 21:14:21 INFO  TransactionController:60 - Success!
+2022-05-21 21:14:21 ERROR TransactionController:66 - com.hoangminh.exception.BadRequestException: Your balance is not enough to process this transaction
+2022-05-21 21:14:24 INFO  TransactionController:60 - Success!
+2022-05-21 21:14:24 ERROR TransactionController:66 - com.hoangminh.exception.BadRequestException: Your balance is not enough to process this transaction
+2022-05-21 21:14:44 INFO  TransactionController:60 - Success!
+2022-05-21 21:14:44 ERROR TransactionController:66 - com.hoangminh.exception.BadRequestException: Your balance is not enough to process this transaction
+2022-05-21 21:14:47 INFO  TransactionController:60 - Success!
+2022-05-21 21:14:47 ERROR TransactionController:66 - com.hoangminh.exception.BadRequestException: Your balance is not enough to process this transaction
+2022-05-21 21:14:50 INFO  TransactionController:77 - Success!
+2022-05-21 21:14:51 INFO  CustomerController:35 - Success!
+2022-05-21 21:14:51 INFO  CustomerController:35 - Success!
+2022-05-21 21:14:52 INFO  TransactionController:77 - Success!
+2022-05-21 21:14:56 INFO  TransactionController:63 - Success!
+2022-05-21 21:14:56 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:15:00 INFO  TransactionController:63 - Success!
+2022-05-21 21:15:00 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:15:42 INFO  TransactionController:63 - Success!
+2022-05-21 21:15:42 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:15:44 INFO  TransactionController:63 - Success!
+2022-05-21 21:15:44 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:15:53 INFO  TransactionController:63 - Success!
+2022-05-21 21:15:53 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:15:55 INFO  TransactionController:63 - Success!
+2022-05-21 21:15:55 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:16:30 INFO  TransactionController:63 - Success!
+2022-05-21 21:16:30 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:16:45 INFO  TransactionController:63 - Success!
+2022-05-21 21:16:45 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:16:48 INFO  TransactionController:63 - Success!
+2022-05-21 21:16:48 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:17:02 INFO  TransactionController:63 - Success!
+2022-05-21 21:17:02 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:19:22 INFO  CustomerController:35 - Success!
+2022-05-21 21:19:22 INFO  CustomerController:35 - Success!
+2022-05-21 21:19:23 INFO  TransactionController:77 - Success!
+2022-05-21 21:19:29 INFO  TransactionController:63 - Success!
+2022-05-21 21:19:29 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:19:42 INFO  TransactionController:63 - Success!
+2022-05-21 21:19:42 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:23:32 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-21 21:23:34 INFO  CustomerController:35 - Success!
+2022-05-21 21:23:34 INFO  CustomerController:35 - Success!
+2022-05-21 21:23:34 INFO  CustomerController:50 - Success!
+2022-05-21 21:23:35 INFO  CustomerController:35 - Success!
+2022-05-21 21:23:35 INFO  CustomerController:35 - Success!
+2022-05-21 21:23:35 INFO  TransactionController:77 - Success!
+2022-05-21 21:24:28 INFO  CustomerController:35 - Success!
+2022-05-21 21:24:28 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:24:28 INFO  CustomerController:35 - Success!
+2022-05-21 21:24:28 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:24:37 INFO  CustomerController:35 - Success!
+2022-05-21 21:24:37 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:24:37 INFO  CustomerController:35 - Success!
+2022-05-21 21:24:37 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:25:32 INFO  CustomerController:35 - Success!
+2022-05-21 21:25:32 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:25:32 INFO  CustomerController:35 - Success!
+2022-05-21 21:25:32 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:26:06 INFO  CustomerController:35 - Success!
+2022-05-21 21:26:06 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:26:06 INFO  CustomerController:35 - Success!
+2022-05-21 21:26:06 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:26:24 INFO  CustomerController:50 - Success!
+2022-05-21 21:26:25 INFO  CustomerController:35 - Success!
+2022-05-21 21:26:25 INFO  CustomerController:35 - Success!
+2022-05-21 21:26:26 INFO  TransactionController:77 - Success!
+2022-05-21 21:26:48 INFO  CustomerController:35 - Success!
+2022-05-21 21:26:48 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:26:48 INFO  CustomerController:35 - Success!
+2022-05-21 21:26:48 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:27:48 INFO  CustomerController:35 - Success!
+2022-05-21 21:27:48 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:27:48 INFO  CustomerController:35 - Success!
+2022-05-21 21:27:48 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:28:36 INFO  CustomerController:35 - Success!
+2022-05-21 21:28:36 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:28:36 INFO  CustomerController:35 - Success!
+2022-05-21 21:28:36 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:30:35 INFO  CustomerController:35 - Success!
+2022-05-21 21:30:35 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:30:35 INFO  CustomerController:35 - Success!
+2022-05-21 21:30:35 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:32:41 INFO  CustomerController:35 - Success!
+2022-05-21 21:32:41 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:32:41 INFO  CustomerController:35 - Success!
+2022-05-21 21:32:41 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:32:46 INFO  CustomerController:50 - Success!
+2022-05-21 21:32:46 INFO  CustomerController:35 - Success!
+2022-05-21 21:32:46 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:32:46 INFO  CustomerController:35 - Success!
+2022-05-21 21:32:46 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:33:06 INFO  CustomerController:50 - Success!
+2022-05-21 21:33:06 INFO  CustomerController:35 - Success!
+2022-05-21 21:33:06 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:33:06 INFO  CustomerController:35 - Success!
+2022-05-21 21:33:06 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:33:31 INFO  CustomerController:50 - Success!
+2022-05-21 21:33:32 INFO  CustomerController:35 - Success!
+2022-05-21 21:33:32 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:33:32 INFO  CustomerController:35 - Success!
+2022-05-21 21:33:32 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:33:58 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-21 21:34:01 INFO  CustomerController:50 - Success!
+2022-05-21 21:34:01 INFO  CustomerController:35 - Success!
+2022-05-21 21:34:01 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:34:01 INFO  CustomerController:35 - Success!
+2022-05-21 21:34:01 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:34:05 INFO  CustomerController:50 - Success!
+2022-05-21 21:34:06 INFO  CustomerController:35 - Success!
+2022-05-21 21:34:06 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:34:06 INFO  CustomerController:35 - Success!
+2022-05-21 21:34:06 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:34:25 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-21 21:34:28 INFO  CustomerController:50 - Success!
+2022-05-21 21:34:29 INFO  CustomerController:35 - Success!
+2022-05-21 21:34:29 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:34:29 INFO  CustomerController:35 - Success!
+2022-05-21 21:34:29 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:34:53 INFO  CustomerController:50 - Success!
+2022-05-21 21:34:54 INFO  CustomerController:35 - Success!
+2022-05-21 21:34:54 INFO  CustomerController:35 - Success!
+2022-05-21 21:34:54 INFO  TransactionController:77 - Success!
+2022-05-21 21:35:05 INFO  TransactionController:63 - Success!
+2022-05-21 21:35:05 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:35:12 INFO  TransactionController:63 - Success!
+2022-05-21 21:35:12 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:35:14 INFO  CustomerController:35 - Success!
+2022-05-21 21:35:14 INFO  CustomerController:35 - Success!
+2022-05-21 21:35:15 INFO  TransactionController:77 - Success!
+2022-05-21 21:35:19 INFO  TransactionController:77 - Success!
+2022-05-21 21:35:21 INFO  CustomerController:35 - Success!
+2022-05-21 21:35:21 INFO  CustomerController:35 - Success!
+2022-05-21 21:35:21 INFO  TransactionController:77 - Success!
+2022-05-21 21:35:31 INFO  TransactionController:63 - Success!
+2022-05-21 21:35:31 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:35:32 INFO  TransactionController:63 - Success!
+2022-05-21 21:35:32 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:35:57 INFO  TransactionController:63 - Success!
+2022-05-21 21:35:57 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:35:58 INFO  TransactionController:63 - Success!
+2022-05-21 21:35:58 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:36:03 INFO  CustomerController:35 - Success!
+2022-05-21 21:36:03 INFO  CustomerController:35 - Success!
+2022-05-21 21:36:03 INFO  TransactionController:77 - Success!
+2022-05-21 21:36:17 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-21 21:36:23 INFO  CustomerController:50 - Success!
+2022-05-21 21:36:24 INFO  CustomerController:35 - Success!
+2022-05-21 21:36:24 INFO  CustomerController:35 - Success!
+2022-05-21 21:36:24 INFO  TransactionController:77 - Success!
+2022-05-21 21:36:30 INFO  TransactionController:63 - Success!
+2022-05-21 21:36:30 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:36:33 INFO  CustomerController:35 - Success!
+2022-05-21 21:36:33 INFO  CustomerController:35 - Success!
+2022-05-21 21:36:40 INFO  CustomerController:50 - Success!
+2022-05-21 21:36:41 INFO  CustomerController:35 - Success!
+2022-05-21 21:36:41 INFO  CustomerController:35 - Success!
+2022-05-21 21:36:42 INFO  TransactionController:77 - Success!
+2022-05-21 21:37:09 INFO  CustomerController:50 - Success!
+2022-05-21 21:37:09 INFO  CustomerController:35 - Success!
+2022-05-21 21:37:09 INFO  CustomerController:35 - Success!
+2022-05-21 21:37:10 INFO  TransactionController:77 - Success!
+2022-05-21 21:37:13 INFO  TransactionController:63 - Success!
+2022-05-21 21:37:13 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:37:13 INFO  TransactionController:63 - Success!
+2022-05-21 21:37:13 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:37:16 INFO  TransactionController:63 - Success!
+2022-05-21 21:37:16 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:37:18 INFO  TransactionController:63 - Success!
+2022-05-21 21:37:18 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:37:57 INFO  CustomerController:50 - Success!
+2022-05-21 21:37:58 INFO  CustomerController:35 - Success!
+2022-05-21 21:37:58 INFO  CustomerController:35 - Success!
+2022-05-21 21:37:59 INFO  TransactionController:77 - Success!
+2022-05-21 21:38:02 INFO  TransactionController:63 - Success!
+2022-05-21 21:38:02 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:38:06 INFO  CustomerController:35 - Success!
+2022-05-21 21:38:06 INFO  CustomerController:35 - Success!
+2022-05-21 21:38:06 INFO  TransactionController:77 - Success!
+2022-05-21 21:38:30 INFO  CustomerController:35 - Success!
+2022-05-21 21:38:30 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:38:30 INFO  CustomerController:35 - Success!
+2022-05-21 21:38:30 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:38:41 INFO  CustomerController:35 - Success!
+2022-05-21 21:38:41 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:38:41 INFO  CustomerController:35 - Success!
+2022-05-21 21:38:41 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:39:11 INFO  CustomerController:50 - Success!
+2022-05-21 21:39:12 INFO  CustomerController:35 - Success!
+2022-05-21 21:39:12 INFO  CustomerController:35 - Success!
+2022-05-21 21:39:13 INFO  TransactionController:77 - Success!
+2022-05-21 21:39:16 INFO  TransactionController:63 - Success!
+2022-05-21 21:39:16 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:39:43 INFO  CustomerController:35 - Success!
+2022-05-21 21:39:43 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:39:43 INFO  CustomerController:35 - Success!
+2022-05-21 21:39:43 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:39:45 INFO  CustomerController:50 - Success!
+2022-05-21 21:39:46 INFO  CustomerController:35 - Success!
+2022-05-21 21:39:46 INFO  CustomerController:35 - Success!
+2022-05-21 21:39:46 INFO  TransactionController:77 - Success!
+2022-05-21 21:40:01 INFO  CustomerController:50 - Success!
+2022-05-21 21:40:01 INFO  CustomerController:35 - Success!
+2022-05-21 21:40:01 INFO  CustomerController:35 - Success!
+2022-05-21 21:40:02 INFO  TransactionController:77 - Success!
+2022-05-21 21:40:05 INFO  TransactionController:63 - Success!
+2022-05-21 21:40:05 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:40:08 INFO  TransactionController:63 - Success!
+2022-05-21 21:40:08 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:40:39 INFO  CustomerController:50 - Success!
+2022-05-21 21:40:39 INFO  CustomerController:35 - Success!
+2022-05-21 21:40:39 INFO  CustomerController:35 - Success!
+2022-05-21 21:40:40 INFO  TransactionController:77 - Success!
+2022-05-21 21:40:43 INFO  TransactionController:63 - Success!
+2022-05-21 21:40:43 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:41:43 INFO  CustomerController:50 - Success!
+2022-05-21 21:41:44 INFO  CustomerController:50 - Success!
+2022-05-21 21:42:03 INFO  CustomerController:50 - Success!
+2022-05-21 21:42:04 INFO  CustomerController:35 - Success!
+2022-05-21 21:42:04 INFO  CustomerController:35 - Success!
+2022-05-21 21:42:04 INFO  TransactionController:77 - Success!
+2022-05-21 21:42:07 INFO  TransactionController:63 - Success!
+2022-05-21 21:42:07 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:42:10 INFO  TransactionController:63 - Success!
+2022-05-21 21:42:10 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:42:36 INFO  CustomerController:50 - Success!
+2022-05-21 21:42:40 INFO  CustomerController:50 - Success!
+2022-05-21 21:42:43 INFO  CustomerController:50 - Success!
+2022-05-21 21:42:43 INFO  CustomerController:35 - Success!
+2022-05-21 21:42:44 INFO  CustomerController:35 - Success!
+2022-05-21 21:42:44 INFO  TransactionController:77 - Success!
+2022-05-21 21:51:44 INFO  CustomerController:50 - Success!
+2022-05-21 21:51:45 INFO  CustomerController:35 - Success!
+2022-05-21 21:51:45 INFO  CustomerController:35 - Success!
+2022-05-21 21:51:45 INFO  TransactionController:77 - Success!
+2022-05-21 21:52:52 INFO  CustomerController:35 - Success!
+2022-05-21 21:52:52 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:52:52 INFO  CustomerController:35 - Success!
+2022-05-21 21:52:52 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:53:20 INFO  CustomerController:35 - Success!
+2022-05-21 21:53:20 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:53:20 INFO  CustomerController:35 - Success!
+2022-05-21 21:53:20 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:53:36 INFO  CustomerController:35 - Success!
+2022-05-21 21:53:36 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:53:36 INFO  CustomerController:35 - Success!
+2022-05-21 21:53:36 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:53:48 INFO  CustomerController:35 - Success!
+2022-05-21 21:53:48 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:53:48 INFO  CustomerController:35 - Success!
+2022-05-21 21:53:48 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:53:55 INFO  CustomerController:50 - Success!
+2022-05-21 21:53:56 INFO  CustomerController:35 - Success!
+2022-05-21 21:53:56 INFO  CustomerController:35 - Success!
+2022-05-21 21:53:56 INFO  TransactionController:77 - Success!
+2022-05-21 21:54:00 INFO  TransactionController:63 - Success!
+2022-05-21 21:54:00 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:54:04 INFO  CustomerController:35 - Success!
+2022-05-21 21:54:04 INFO  CustomerController:35 - Success!
+2022-05-21 21:55:40 INFO  CustomerController:35 - Success!
+2022-05-21 21:55:40 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:55:40 INFO  CustomerController:35 - Success!
+2022-05-21 21:55:40 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:56:08 INFO  CustomerController:50 - Success!
+2022-05-21 21:56:09 INFO  CustomerController:35 - Success!
+2022-05-21 21:56:09 INFO  CustomerController:35 - Success!
+2022-05-21 21:56:10 INFO  TransactionController:77 - Success!
+2022-05-21 21:56:14 INFO  TransactionController:63 - Success!
+2022-05-21 21:56:14 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 21:56:18 INFO  CustomerController:35 - Success!
+2022-05-21 21:56:18 INFO  CustomerController:35 - Success!
+2022-05-21 21:56:18 INFO  TransactionController:77 - Success!
+2022-05-21 21:56:28 INFO  CustomerController:35 - Success!
+2022-05-21 21:56:28 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:56:28 INFO  CustomerController:35 - Success!
+2022-05-21 21:56:28 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:56:46 INFO  CustomerController:35 - Success!
+2022-05-21 21:56:46 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:56:46 INFO  CustomerController:35 - Success!
+2022-05-21 21:56:46 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:57:42 INFO  CustomerController:50 - Success!
+2022-05-21 21:57:43 INFO  CustomerController:35 - Success!
+2022-05-21 21:57:43 INFO  CustomerController:35 - Success!
+2022-05-21 21:57:43 INFO  TransactionController:77 - Success!
+2022-05-21 21:58:04 INFO  CustomerController:35 - Success!
+2022-05-21 21:58:04 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:58:04 INFO  CustomerController:35 - Success!
+2022-05-21 21:58:04 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:58:49 INFO  CustomerController:35 - Success!
+2022-05-21 21:58:49 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:58:49 INFO  CustomerController:35 - Success!
+2022-05-21 21:58:49 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 21:59:10 INFO  CustomerController:50 - Success!
+2022-05-21 21:59:10 INFO  CustomerController:35 - Success!
+2022-05-21 21:59:10 INFO  CustomerController:35 - Success!
+2022-05-21 21:59:11 INFO  TransactionController:77 - Success!
+2022-05-21 21:59:17 INFO  TransactionController:77 - Success!
+2022-05-21 22:17:01 INFO  CustomerController:50 - Success!
+2022-05-21 22:17:01 INFO  CustomerController:35 - Success!
+2022-05-21 22:17:01 INFO  CustomerController:35 - Success!
+2022-05-21 22:17:01 INFO  TransactionController:77 - Success!
+2022-05-21 22:17:06 INFO  TransactionController:63 - Success!
+2022-05-21 22:17:06 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-21 22:17:25 INFO  CustomerController:35 - Success!
+2022-05-21 22:17:25 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:17:25 INFO  CustomerController:35 - Success!
+2022-05-21 22:17:25 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:20:19 INFO  CustomerController:35 - Success!
+2022-05-21 22:20:19 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:20:19 INFO  CustomerController:35 - Success!
+2022-05-21 22:20:19 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:20:20 INFO  CustomerController:35 - Success!
+2022-05-21 22:20:20 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:20:20 INFO  CustomerController:35 - Success!
+2022-05-21 22:20:20 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:22:31 INFO  CustomerController:35 - Success!
+2022-05-21 22:22:31 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:22:31 INFO  CustomerController:35 - Success!
+2022-05-21 22:22:31 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:22:40 INFO  CustomerController:35 - Success!
+2022-05-21 22:22:40 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:22:40 INFO  CustomerController:35 - Success!
+2022-05-21 22:22:40 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:22:45 INFO  CustomerController:50 - Success!
+2022-05-21 22:22:45 INFO  CustomerController:35 - Success!
+2022-05-21 22:22:45 INFO  CustomerController:35 - Success!
+2022-05-21 22:22:46 INFO  TransactionController:77 - Success!
+2022-05-21 22:28:18 INFO  CustomerController:50 - Success!
+2022-05-21 22:28:19 INFO  CustomerController:35 - Success!
+2022-05-21 22:28:19 INFO  CustomerController:35 - Success!
+2022-05-21 22:28:20 INFO  TransactionController:77 - Success!
+2022-05-21 22:29:28 INFO  CustomerController:35 - Success!
+2022-05-21 22:29:28 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:29:28 INFO  CustomerController:35 - Success!
+2022-05-21 22:29:28 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:29:31 INFO  CustomerController:35 - Success!
+2022-05-21 22:29:31 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:29:31 INFO  CustomerController:35 - Success!
+2022-05-21 22:29:31 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:29:48 INFO  CustomerController:50 - Success!
+2022-05-21 22:29:49 INFO  CustomerController:35 - Success!
+2022-05-21 22:29:49 INFO  CustomerController:35 - Success!
+2022-05-21 22:29:49 INFO  TransactionController:77 - Success!
+2022-05-21 22:29:53 INFO  CustomerController:35 - Success!
+2022-05-21 22:29:53 INFO  CustomerController:35 - Success!
+2022-05-21 22:29:54 INFO  TransactionController:77 - Success!
+2022-05-21 22:29:58 INFO  CustomerController:35 - Success!
+2022-05-21 22:29:58 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:29:58 INFO  CustomerController:35 - Success!
+2022-05-21 22:29:58 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:30:21 INFO  CustomerController:35 - Success!
+2022-05-21 22:30:21 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:30:21 INFO  CustomerController:35 - Success!
+2022-05-21 22:30:21 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:30:33 INFO  CustomerController:35 - Success!
+2022-05-21 22:30:33 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:30:33 INFO  CustomerController:35 - Success!
+2022-05-21 22:30:33 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:31:16 INFO  CustomerController:50 - Success!
+2022-05-21 22:31:17 INFO  CustomerController:35 - Success!
+2022-05-21 22:31:17 INFO  CustomerController:35 - Success!
+2022-05-21 22:31:17 INFO  TransactionController:77 - Success!
+2022-05-21 22:31:21 INFO  TransactionController:77 - Success!
+2022-05-21 22:31:23 INFO  CustomerController:35 - Success!
+2022-05-21 22:31:23 INFO  CustomerController:35 - Success!
+2022-05-21 22:31:24 INFO  TransactionController:77 - Success!
+2022-05-21 22:31:25 INFO  TransactionController:77 - Success!
+2022-05-21 22:31:27 INFO  CustomerController:35 - Success!
+2022-05-21 22:31:27 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:31:27 INFO  CustomerController:35 - Success!
+2022-05-21 22:31:27 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-21 22:33:41 INFO  CustomerController:50 - Success!
+2022-05-21 22:33:42 INFO  CustomerController:35 - Success!
+2022-05-21 22:33:42 INFO  CustomerController:35 - Success!
+2022-05-21 22:33:42 INFO  TransactionController:77 - Success!
+2022-05-21 22:36:11 INFO  CustomerController:50 - Success!
+2022-05-21 22:36:12 INFO  CustomerController:35 - Success!
+2022-05-21 22:36:12 INFO  CustomerController:35 - Success!
+2022-05-21 22:36:12 INFO  TransactionController:77 - Success!
+2022-05-21 22:36:55 INFO  CustomerController:50 - Success!
+2022-05-21 22:36:55 INFO  CustomerController:35 - Success!
+2022-05-21 22:36:55 INFO  CustomerController:35 - Success!
+2022-05-21 22:36:56 INFO  TransactionController:77 - Success!
+2022-05-21 22:40:39 INFO  CustomerController:50 - Success!
+2022-05-21 22:40:39 INFO  CustomerController:35 - Success!
+2022-05-21 22:40:39 INFO  CustomerController:35 - Success!
+2022-05-21 22:40:40 INFO  TransactionController:77 - Success!
+2022-05-21 22:41:37 INFO  CustomerController:50 - Success!
+2022-05-21 22:41:37 INFO  CustomerController:35 - Success!
+2022-05-21 22:41:37 INFO  CustomerController:35 - Success!
+2022-05-21 22:41:38 INFO  TransactionController:77 - Success!
+2022-05-22 00:19:00 INFO  CustomerController:50 - Success!
+2022-05-22 00:19:01 INFO  CustomerController:35 - Success!
+2022-05-22 00:19:01 INFO  CustomerController:35 - Success!
+2022-05-22 00:19:01 INFO  TransactionController:77 - Success!
+2022-05-22 00:26:21 INFO  CustomerController:50 - Success!
+2022-05-22 00:26:21 INFO  CustomerController:35 - Success!
+2022-05-22 00:26:21 INFO  CustomerController:35 - Success!
+2022-05-22 00:26:22 INFO  TransactionController:77 - Success!
+2022-05-22 00:26:31 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-22 00:26:40 INFO  CustomerController:35 - Success!
+2022-05-22 00:26:40 INFO  CustomerController:35 - Success!
+2022-05-22 00:26:40 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-22 00:26:40 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-22 00:27:08 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-22 00:27:16 INFO  CustomerController:50 - Success!
+2022-05-22 00:27:16 INFO  CustomerController:35 - Success!
+2022-05-22 00:27:16 INFO  CustomerController:35 - Success!
+2022-05-22 00:27:16 INFO  TransactionController:77 - Success!
+2022-05-22 00:27:33 INFO  TransactionController:77 - Success!
+2022-05-22 01:01:09 INFO  CustomerController:35 - Success!
+2022-05-22 01:01:09 INFO  CustomerController:35 - Success!
+2022-05-22 01:01:09 INFO  TransactionController:77 - Success!
+2022-05-22 01:01:44 INFO  CustomerController:35 - Success!
+2022-05-22 01:01:44 INFO  CustomerController:35 - Success!
+2022-05-22 01:01:44 INFO  TransactionController:77 - Success!
+2022-05-22 15:29:17 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-22 15:31:10 INFO  CustomerController:35 - Success!
+2022-05-22 15:31:10 INFO  CustomerController:35 - Success!
+2022-05-22 15:31:11 INFO  TransactionController:77 - Success!
+2022-05-22 15:32:36 INFO  CustomerController:35 - Success!
+2022-05-22 15:32:36 INFO  CustomerController:35 - Success!
+2022-05-22 15:32:36 INFO  TransactionController:77 - Success!
+2022-05-22 15:32:42 INFO  TransactionController:77 - Success!
+2022-05-22 15:32:45 INFO  CustomerController:35 - Success!
+2022-05-22 15:32:45 INFO  CustomerController:35 - Success!
+2022-05-22 15:32:45 INFO  TransactionController:77 - Success!
+2022-05-22 15:33:25 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-22 15:33:39 INFO  CustomerController:35 - Success!
+2022-05-22 15:33:39 INFO  CustomerController:35 - Success!
+2022-05-22 15:33:39 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-22 15:33:39 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-22 15:33:48 INFO  CustomerController:50 - Success!
+2022-05-22 15:33:48 ERROR CustomerController:53 - org.springframework.security.authentication.BadCredentialsException: Bad credentials
+2022-05-22 15:33:55 INFO  CustomerController:35 - Success!
+2022-05-22 15:33:55 INFO  CustomerController:35 - Success!
+2022-05-22 15:33:55 INFO  TransactionController:77 - Success!
+2022-05-22 15:34:19 INFO  CustomerController:50 - Success!
+2022-05-22 15:34:19 INFO  CustomerController:35 - Success!
+2022-05-22 15:34:19 INFO  CustomerController:35 - Success!
+2022-05-22 15:34:20 INFO  TransactionController:77 - Success!
+2022-05-22 15:35:20 INFO  TransactionController:60 - Success!
+2022-05-22 15:35:20 ERROR TransactionController:63 - com.hoangminh.exception.NotFoundException: card or id not found
+2022-05-22 15:35:28 INFO  TransactionController:77 - Success!
+2022-05-22 15:35:32 INFO  TransactionController:88 - Success!
+2022-05-22 15:35:32 INFO  CustomerController:35 - Success!
+2022-05-22 15:35:32 INFO  TransactionController:77 - Success!
+2022-05-22 15:35:32 INFO  TransactionController:77 - Success!
+2022-05-22 15:35:39 INFO  CustomerController:35 - Success!
+2022-05-22 15:35:39 INFO  CustomerController:35 - Success!
+2022-05-22 15:35:39 INFO  TransactionController:77 - Success!
+2022-05-22 15:35:50 INFO  TransactionController:77 - Success!
+2022-05-22 15:35:52 INFO  TransactionController:88 - Success!
+2022-05-22 15:35:52 ERROR TransactionController:91 - com.hoangminh.exception.NotFoundException: User with the name not found
+2022-05-22 15:35:58 INFO  TransactionController:88 - Success!
+2022-05-22 15:35:59 INFO  CustomerController:35 - Success!
+2022-05-22 15:35:59 INFO  TransactionController:77 - Success!
+2022-05-22 15:35:59 INFO  TransactionController:77 - Success!
+2022-05-22 15:36:27 INFO  CustomerController:35 - Success!
+2022-05-22 15:36:27 INFO  CustomerController:35 - Success!
+2022-05-22 15:36:27 INFO  TransactionController:77 - Success!
+2022-05-22 15:36:29 INFO  CustomerController:56 - Success!
+2022-05-22 15:36:31 INFO  CustomerController:56 - Success!
+2022-05-22 15:36:33 INFO  TransactionController:77 - Success!
+2022-05-22 15:36:47 INFO  CustomerController:56 - Success!
+2022-05-22 15:36:55 INFO  CustomerController:35 - Success!
+2022-05-22 15:36:55 INFO  CustomerController:35 - Success!
+2022-05-22 15:36:55 INFO  TransactionController:77 - Success!
+2022-05-22 15:36:59 INFO  TransactionController:77 - Success!
+2022-05-22 15:38:40 INFO  CustomerController:56 - Success!
+2022-05-22 15:38:42 INFO  CustomerController:56 - Success!
+2022-05-22 15:39:59 INFO  CustomerController:56 - Success!
+2022-05-22 15:40:03 INFO  CustomerController:35 - Success!
+2022-05-22 15:40:03 INFO  CustomerController:35 - Success!
+2022-05-22 15:40:03 INFO  TransactionController:77 - Success!
+2022-05-22 15:40:08 INFO  CustomerController:35 - Success!
+2022-05-22 15:40:08 INFO  CustomerController:35 - Success!
+2022-05-22 15:40:08 INFO  TransactionController:77 - Success!
+2022-05-22 15:40:11 INFO  TransactionController:77 - Success!
+2022-05-22 15:40:19 INFO  CustomerController:56 - Success!
+2022-05-22 15:40:21 INFO  CustomerController:35 - Success!
+2022-05-22 15:40:21 INFO  CustomerController:35 - Success!
+2022-05-22 15:40:21 INFO  TransactionController:77 - Success!
+2022-05-22 15:40:24 INFO  CustomerController:56 - Success!
+2022-05-22 15:40:34 INFO  CustomerController:134 - Success!
+2022-05-22 15:40:35 INFO  CustomerController:145 - Success!
+2022-05-22 15:40:37 INFO  CustomerController:183 - Success!
+2022-05-22 15:40:55 INFO  CustomerController:156 - Success!
+2022-05-22 15:40:55 INFO  CustomerController:56 - Success!
+2022-05-22 15:40:59 INFO  CustomerController:56 - Success!
+2022-05-22 15:41:05 INFO  CustomerController:134 - Success!
+2022-05-22 15:41:06 INFO  CustomerController:145 - Success!
+2022-05-22 15:41:15 INFO  CustomerController:134 - Success!
+2022-05-22 15:41:15 INFO  CustomerController:145 - Success!
+2022-05-22 15:41:16 INFO  CustomerController:183 - Success!
+2022-05-22 15:41:31 INFO  CustomerController:156 - Success!
+2022-05-22 15:41:58 INFO  CustomerController:156 - Success!
+2022-05-22 15:42:05 INFO  CustomerController:56 - Success!
+2022-05-22 15:42:09 INFO  CustomerController:56 - Success!
+2022-05-22 15:42:15 INFO  CustomerController:134 - Success!
+2022-05-22 15:42:15 INFO  CustomerController:145 - Success!
+2022-05-22 15:42:17 INFO  CustomerController:183 - Success!
+2022-05-22 15:42:31 INFO  CustomerController:156 - Success!
+2022-05-22 15:44:43 INFO  CustomerController:56 - Success!
+2022-05-22 15:44:45 INFO  CustomerController:56 - Success!
+2022-05-22 15:44:46 INFO  CustomerController:56 - Success!
+2022-05-22 15:44:47 INFO  CustomerController:56 - Success!
+2022-05-22 15:44:53 INFO  CustomerController:134 - Success!
+2022-05-22 15:44:53 INFO  CustomerController:145 - Success!
+2022-05-22 15:44:55 INFO  CustomerController:183 - Success!
+2022-05-22 15:44:55 INFO  CustomerController:156 - Success!
+2022-05-22 15:44:57 INFO  CustomerController:56 - Success!
+2022-05-22 15:45:01 INFO  CustomerController:56 - Success!
+2022-05-22 15:45:15 INFO  CustomerController:134 - Success!
+2022-05-22 15:45:16 INFO  CustomerController:145 - Success!
+2022-05-22 15:45:17 INFO  CustomerController:183 - Success!
+2022-05-22 15:45:32 INFO  CustomerController:156 - Success!
+2022-05-22 15:45:33 INFO  CustomerController:56 - Success!
+2022-05-22 15:46:05 INFO  CustomerController:56 - Success!
+2022-05-22 15:46:08 INFO  CustomerController:56 - Success!
+2022-05-22 15:46:18 INFO  CustomerController:56 - Success!
+2022-05-22 15:46:19 INFO  CustomerController:56 - Success!
+2022-05-22 15:46:32 INFO  CustomerController:134 - Success!
+2022-05-22 15:46:33 INFO  CustomerController:145 - Success!
+2022-05-22 15:46:34 INFO  CustomerController:183 - Success!
+2022-05-22 15:46:45 INFO  CustomerController:156 - Success!
+2022-05-22 15:46:46 INFO  CustomerController:56 - Success!
+2022-05-22 15:47:47 INFO  CustomerController:56 - Success!
+2022-05-22 15:48:44 INFO  TransactionController:77 - Success!
+2022-05-22 15:48:50 INFO  CustomerController:56 - Success!
+2022-05-22 15:48:54 INFO  CustomerController:35 - Success!
+2022-05-22 15:48:54 INFO  CustomerController:35 - Success!
+2022-05-22 15:48:54 INFO  TransactionController:77 - Success!
+2022-05-22 15:48:55 INFO  CustomerController:56 - Success!
+2022-05-22 15:49:00 INFO  CustomerController:134 - Success!
+2022-05-22 15:49:04 INFO  CustomerController:145 - Success!
+2022-05-22 15:49:05 INFO  CustomerController:183 - Success!
+2022-05-22 15:49:06 ERROR CustomerController:186 - The 'To' number +84096319650 is not a valid phone number.
+2022-05-22 15:49:12 INFO  CustomerController:56 - Success!
+2022-05-22 15:49:13 INFO  TransactionController:77 - Success!
+2022-05-22 15:49:18 INFO  CustomerController:56 - Success!
+2022-05-22 15:49:22 INFO  CustomerController:35 - Success!
+2022-05-22 15:49:22 INFO  CustomerController:35 - Success!
+2022-05-22 15:49:22 INFO  TransactionController:77 - Success!
+2022-05-22 15:49:26 INFO  TransactionController:60 - Success!
+2022-05-22 15:49:26 INFO  CustomerController:35 - Success!
+2022-05-22 15:49:26 INFO  TransactionController:77 - Success!
+2022-05-22 15:49:30 INFO  TransactionController:60 - Success!
+2022-05-22 15:49:30 INFO  CustomerController:35 - Success!
+2022-05-22 15:49:30 INFO  TransactionController:77 - Success!
+2022-05-22 15:49:34 INFO  TransactionController:60 - Success!
+2022-05-22 15:49:34 INFO  CustomerController:35 - Success!
+2022-05-22 15:49:34 INFO  TransactionController:77 - Success!
+2022-05-22 15:49:35 INFO  TransactionController:60 - Success!
+2022-05-22 15:49:35 INFO  CustomerController:35 - Success!
+2022-05-22 15:49:35 INFO  TransactionController:77 - Success!
+2022-05-22 15:49:38 INFO  TransactionController:60 - Success!
+2022-05-22 15:49:38 INFO  CustomerController:35 - Success!
+2022-05-22 15:49:38 INFO  TransactionController:77 - Success!
+2022-05-22 15:49:45 INFO  TransactionController:60 - Success!
+2022-05-22 15:49:45 ERROR TransactionController:66 - com.hoangminh.exception.BadRequestException: Your balance is not enough to process this transaction
+2022-05-22 15:49:54 INFO  TransactionController:60 - Success!
+2022-05-22 15:49:54 ERROR TransactionController:66 - com.hoangminh.exception.BadRequestException: Your balance is not enough to process this transaction
+2022-05-22 15:49:58 INFO  TransactionController:77 - Success!
+2022-05-22 15:50:08 INFO  TransactionController:88 - Success!
+2022-05-22 15:50:08 ERROR TransactionController:94 - com.hoangminh.exception.BadRequestException: Money tranfer exceed the balance of user
+2022-05-22 15:50:13 INFO  CustomerController:35 - Success!
+2022-05-22 15:50:13 INFO  CustomerController:35 - Success!
+2022-05-22 15:50:13 INFO  TransactionController:77 - Success!
+2022-05-22 15:50:22 INFO  TransactionController:63 - Success!
+2022-05-22 15:50:22 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-22 15:50:30 INFO  TransactionController:63 - Success!
+2022-05-22 15:50:32 INFO  TransactionController:105 - Success!
+2022-05-22 15:50:32 ERROR TransactionController:111 - com.hoangminh.exception.BadRequestException: Money tranfer exceed the balance of user
+2022-05-22 15:50:36 INFO  CustomerController:35 - Success!
+2022-05-22 15:50:36 INFO  CustomerController:35 - Success!
+2022-05-22 15:50:36 INFO  TransactionController:77 - Success!
+2022-05-22 15:50:40 INFO  TransactionController:60 - Success!
+2022-05-22 15:50:40 INFO  CustomerController:35 - Success!
+2022-05-22 15:50:40 INFO  TransactionController:77 - Success!
+2022-05-22 15:50:45 INFO  TransactionController:63 - Success!
+2022-05-22 15:50:47 INFO  TransactionController:105 - Success!
+2022-05-22 15:50:49 INFO  CustomerController:35 - Success!
+2022-05-22 15:50:49 INFO  CustomerController:35 - Success!
+2022-05-22 15:50:50 INFO  TransactionController:77 - Success!
+2022-05-22 15:50:53 INFO  TransactionController:63 - Success!
+2022-05-22 15:50:53 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-22 15:50:57 INFO  TransactionController:63 - Success!
+2022-05-22 15:50:57 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again
+2022-05-22 15:51:00 INFO  CustomerController:35 - Success!
+2022-05-22 15:51:00 INFO  CustomerController:35 - Success!
+2022-05-22 15:51:00 INFO  TransactionController:77 - Success!
+2022-05-22 15:51:07 INFO  TransactionController:77 - Success!
+2022-05-22 15:51:09 INFO  CustomerController:73 - Success!
+2022-05-22 15:51:39 INFO  CustomerController:101 - Success!
+2022-05-22 15:51:41 INFO  CustomerController:73 - Success!
+2022-05-22 15:51:43 INFO  CustomerController:56 - Success!
+2022-05-22 15:51:44 INFO  CustomerController:101 - Success!
+2022-05-22 15:51:58 INFO  CustomerController:56 - Success!
+2022-05-22 15:51:59 INFO  CustomerController:73 - Success!
+2022-05-22 15:52:02 INFO  CustomerController:35 - Success!
+2022-05-22 15:52:02 INFO  CustomerController:35 - Success!
+2022-05-22 15:52:02 INFO  TransactionController:77 - Success!
+2022-05-22 15:52:11 INFO  CustomerController:56 - Success!
+2022-05-22 15:52:46 INFO  TransactionController:77 - Success!
+2022-05-22 15:52:50 INFO  CustomerController:35 - Success!
+2022-05-22 15:52:50 INFO  CustomerController:35 - Success!
+2022-05-22 15:52:50 INFO  TransactionController:77 - Success!
+2022-05-22 15:53:03 INFO  TransactionController:77 - Success!
+2022-05-22 15:53:45 INFO  CustomerController:35 - Success!
+2022-05-22 15:53:45 INFO  CustomerController:35 - Success!
+2022-05-22 15:53:45 INFO  TransactionController:77 - Success!
+2022-05-22 15:53:52 INFO  CustomerController:50 - Success!
+2022-05-22 15:53:52 ERROR CustomerController:53 - org.springframework.security.authentication.BadCredentialsException: Bad credentials
+2022-05-22 15:54:05 INFO  CustomerController:35 - Success!
+2022-05-22 15:54:05 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-22 15:54:05 INFO  CustomerController:35 - Success!
+2022-05-22 15:54:05 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-22 15:59:26 INFO  CustomerController:50 - Success!
+2022-05-22 15:59:26 INFO  CustomerController:35 - Success!
+2022-05-22 15:59:26 INFO  CustomerController:35 - Success!
+2022-05-22 15:59:26 INFO  TransactionController:77 - Success!
+2022-05-22 16:01:05 INFO  CustomerController:35 - Success!
+2022-05-22 16:01:05 INFO  CustomerController:35 - Success!
+2022-05-22 16:01:05 INFO  TransactionController:77 - Success!
+2022-05-22 16:01:12 INFO  CustomerController:35 - Success!
+2022-05-22 16:01:12 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-22 16:01:12 INFO  CustomerController:35 - Success!
+2022-05-22 16:01:12 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-22 16:02:22 INFO  CustomerController:35 - Success!
+2022-05-22 16:02:22 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-22 16:02:22 INFO  CustomerController:35 - Success!
+2022-05-22 16:02:22 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-22 16:03:40 INFO  CustomerController:35 - Success!
+2022-05-22 16:03:40 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-22 16:03:40 INFO  CustomerController:35 - Success!
+2022-05-22 16:03:40 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-22 16:03:51 INFO  CustomerController:35 - Success!
+2022-05-22 16:03:51 INFO  CustomerController:35 - Success!
+2022-05-22 16:03:51 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-22 16:03:51 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-22 16:04:03 INFO  CustomerController:35 - Success!
+2022-05-22 16:04:03 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-22 16:04:03 INFO  CustomerController:35 - Success!
+2022-05-22 16:04:03 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-22 16:04:28 INFO  CustomerController:35 - Success!
+2022-05-22 16:04:28 INFO  CustomerController:35 - Success!
+2022-05-22 16:04:28 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-22 16:04:28 ERROR CustomerController:41 - java.lang.ClassCastException: class java.lang.String cannot be cast to class com.hoangminh.service.impl.UserDetailsImpl (java.lang.String is in module java.base of loader 'bootstrap'; com.hoangminh.service.impl.UserDetailsImpl is in unnamed module of loader 'app')
+2022-05-22 16:06:48 INFO  CustomerController:50 - Success!
+2022-05-22 16:06:48 INFO  CustomerController:35 - Success!
+2022-05-22 16:06:48 INFO  CustomerController:35 - Success!
+2022-05-22 16:06:48 INFO  TransactionController:77 - Success!
+2022-05-22 16:13:33 INFO  CustomerController:35 - Success!
+2022-05-22 16:13:33 INFO  CustomerController:35 - Success!
+2022-05-22 16:13:34 INFO  TransactionController:77 - Success!
+2022-05-22 16:13:44 INFO  CustomerController:35 - Success!
+2022-05-22 16:13:44 INFO  CustomerController:35 - Success!
+2022-05-22 16:13:44 INFO  TransactionController:77 - Success!
+2022-05-22 16:20:19 INFO  CustomerController:35 - Success!
+2022-05-22 16:20:19 INFO  CustomerController:35 - Success!
+2022-05-22 16:20:20 INFO  TransactionController:77 - Success!
+2022-05-22 16:27:05 INFO  CustomerController:35 - Success!
+2022-05-22 16:27:05 INFO  CustomerController:35 - Success!
+2022-05-22 16:27:05 INFO  TransactionController:77 - Success!
+2022-05-22 16:27:16 INFO  CustomerController:35 - Success!
+2022-05-22 16:27:16 INFO  CustomerController:35 - Success!
+2022-05-22 16:27:16 INFO  TransactionController:77 - Success!
+2022-05-22 16:27:26 INFO  TransactionController:69 - Success!
+2022-05-22 16:27:26 ERROR TransactionController:72 - com.hoangminh.exception.NotFoundException: wallet not found
+2022-05-22 16:30:54 INFO  CustomerController:35 - Success!
+2022-05-22 16:30:54 INFO  CustomerController:35 - Success!
+2022-05-22 16:30:55 INFO  TransactionController:77 - Success!
+2022-05-22 16:31:05 INFO  CustomerController:35 - Success!
+2022-05-22 16:31:05 INFO  CustomerController:35 - Success!
+2022-05-22 16:31:05 INFO  TransactionController:77 - Success!
+2022-05-22 16:31:19 INFO  CustomerController:101 - Success!
+2022-05-22 16:33:45 INFO  TwilioInitiazer:21 - Twilio initialized ... with account id: AC204bbecc0eb504cf32c82acfd2274109
+2022-05-22 16:33:52 INFO  CustomerController:35 - Success!
+2022-05-22 16:33:52 INFO  CustomerController:35 - Success!
+2022-05-22 16:33:53 INFO  TransactionController:77 - Success!
+2022-05-22 16:33:57 INFO  TransactionController:60 - Success!
+2022-05-22 16:33:58 INFO  CustomerController:35 - Success!
+2022-05-22 16:33:58 INFO  TransactionController:77 - Success!
+2022-05-22 16:33:59 INFO  TransactionController:77 - Success!
+2022-05-22 16:34:01 INFO  TransactionController:77 - Success!
+2022-05-22 16:34:02 INFO  CustomerController:35 - Success!
+2022-05-22 16:34:02 INFO  CustomerController:35 - Success!
+2022-05-22 16:34:02 INFO  TransactionController:77 - Success!
+2022-05-22 16:34:06 INFO  TransactionController:63 - Success!
+2022-05-22 16:34:09 INFO  TransactionController:105 - Success!
+2022-05-22 16:34:13 INFO  TransactionController:63 - Success!
+2022-05-22 16:34:13 ERROR TransactionController:66 - com.hoangminh.exception.NotFoundException: Bill with this id cant not be found! please try again

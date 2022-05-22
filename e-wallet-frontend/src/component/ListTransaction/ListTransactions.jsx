@@ -1,12 +1,17 @@
 
 import { useSelector } from 'react-redux';
-import React, { useEffect, useState, forwardRef, useRef, useImperativeHandle } from 'react'
+import React, { useEffect, useState, forwardRef, useImperativeHandle } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import baserequest from '../../core/baserequest';
 import ewalletApi from '../../core/ewalletApi';
 
 import { FcMoneyTransfer } from 'react-icons/fc'
+import WithDrawIcon from '../../asset/withdraw.png';
+import TopUpICon from '../../asset/topup.png';
+import TranferMoneyIcon from '../../asset/tranfermoney.png';
+import BillPaymentIcon from '../../asset/billPayment.png';
+
 import { useNavigate } from 'react-router-dom';
+import { BiUpArrowAlt, BiDownArrowAlt } from "react-icons/bi";
 
 import Pagination from '../../component/pagination/pagination';
 // import Modal from '../../component/modal/modal'
@@ -50,7 +55,28 @@ const ListTransactions = forwardRef((props, ref) => {
                 if (typeof byYearAndByMonth[year][month] === "undefined") {
                     byYearAndByMonth[year][month] = [];
                 }
-                byYearAndByMonth[year][month].push(item);
+
+                switch (item.category){
+                    case "cashin":
+                        byYearAndByMonth[year][month].push({...item,icon: TopUpICon,increment:true});
+                        break;
+                    case "cashout":
+                        byYearAndByMonth[year][month].push({...item,icon: WithDrawIcon,increment:false});
+                        break;
+                        
+                    case "payment":
+                        byYearAndByMonth[year][month].push({...item,icon: BillPaymentIcon,increment:false});
+                        break;
+                        
+                    case "transfermoney":
+                        byYearAndByMonth[year][month].push({...item,icon: TranferMoneyIcon,increment:item.amount > 0? true:false});
+                        break;
+                        
+                    default:
+                        byYearAndByMonth[year][month].push(item);
+                        break;
+                }
+                //byYearAndByMonth[year][month].push({...item,icon: WithDrawIcon});
 
             })
 
@@ -94,15 +120,20 @@ const ListTransactions = forwardRef((props, ref) => {
                                         {
                                             datamonth.data.map((item, index) => (
                                                 <div key={index} className="flex p-20 items-center mb-4 bg-light text-dark">
-                                                    <div className='font-semibold bg-green p-2'><FcMoneyTransfer className='icon' /></div>
+                                                    <div className='font-semibold bg-green p-2'>
+                                                        <img src={item.icon} className='icon'/>
+                                                        {/* <FcMoneyTransfer className='icon' /> */}
+                                                    </div>
                                                     <div className='ml-4'>
                                                         <div className='text-2xl font-semibold text-gray-700'>From: {item.froms}</div>
                                                         <div className=' font-semibold text-gray-400'>Type: {item.category}</div>
                                                         <div className=' font-semibold text-gray-400'>Date: {item.created_date}</div>
                                                     </div>
                                                     <div className='ml-auto text-2xl font-semibold'>
-                                                        Amount:
-                                                        {item.amount}$</div>
+                                                        {/* Amount: */}
+                                                        {item.increment ? <div><i><BiUpArrowAlt style={{ color: 'green', fontSize: '60px' }} /></i>+${item.amount}</div> : <div><i><BiDownArrowAlt style={{ color: 'red', fontSize: '60px' }} /></i>-${Math.abs(item.amount)}</div>}
+                                                        {/* {item.amount}$ */}
+                                                    </div>
                                                 </div>
                                             ))
                                         }

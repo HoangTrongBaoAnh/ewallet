@@ -4,9 +4,13 @@ import { Button, Table, Modal, Form, Col, Row } from 'react-bootstrap';
 import './Bill.scss';
 import MUIDataTable from "mui-datatables";
 import baserequest from '../../../core/baserequest';
+import ewalletApi from '../../../core/ewalletApi';
+
 const Bill = () => {
     const [show, setShow] = React.useState(false);
     const [edititem, setedititem] = useState({ name: "defaultvalue" });
+    const [activewallet, setactivewallet] = useState({});
+
     const handleClose = () => setShow(false);
     const handleShow = (index, item) => {
         setedititem(item)
@@ -32,10 +36,23 @@ const Bill = () => {
     const deleteCate = (id) => {
         baserequest.delete("bill/" + id)
             .then(res => {
-                fetchBill()
+                fetchBill();
             })
 
     }
+
+    const setwalletactive = async (item) => {
+        console.log(item)
+        if (window.confirm("set acive this card")) {
+          try {
+            await ewalletApi.confirmBill(item['0']);
+            fetchBill();
+          }
+          catch (err) {
+            console.log(err.message);
+          }
+        }
+      }
 
     React.useEffect(() => {
         fetchBill();
@@ -100,12 +117,17 @@ const Bill = () => {
             name: "Status",
             label: "Status",
             options: {
-                customBodyRender: (data) => {
-                    console.log(data);
+                customBodyRender: (data,rowData) => {
+                    var obj = rowData.rowData.reduce(function (acc, cur, i) {
+                        console.log(cur);
+                        acc[i] = cur;
+                        return acc;
+                    }, {});
+                    //console.log(data);
                     return (
                         <Form.Check
                         checked={data}
-                        readOnly
+                        onChange={e => setwalletactive(obj)}
                         type="switch"
                         id="custom-switch"
                         className='Form.ControlSwitch'
@@ -154,36 +176,7 @@ const Bill = () => {
             <Button className='primary new' onClick={e => handleShow(1)}>
                 Add bill
             </Button>
-            {/* <Table striped bordered hover>
-                <thead>
-                    <tr>
-                    <th>Customer Name</th>
-                        <th>Customer code</th>
-                        <th>Address</th>
-                        <th>Amount</th>
-                        <th>Status</th>
-                        <th>Category</th>
-                        <th>action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {bills.map((item, index) => (
-                        <tr key={index}>
-                            <td>{item.customerName}</td>
-                            <td>{item.customercode}</td>
-                            <td>{item.address}</td>
-                            <td>{item.amount}</td>
-                            <td> }</td>
-                            <td>{item.cagetory_id}</td>
-                            <td>
-                                <button onClick={e => handleShow(-1, item)}><i className='bx bx-edit'></i>Edit</button>
-                                <button onClick={e => deleteCate(item.id)}><i className='bx bx-trash'></i></button>
-                            </td>
-                        </tr>
-                    ))}
-
-                </tbody>
-            </Table> */}
+            
             <MyVerticallyCenteredModal
                 show={show}
                 setbills={setbills}

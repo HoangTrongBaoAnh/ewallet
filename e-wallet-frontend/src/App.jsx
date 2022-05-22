@@ -9,6 +9,11 @@ import socket from './socket/socket'
 
 import { Form, Button, Tabs, Tab } from 'react-bootstrap'
 import { FcMoneyTransfer } from 'react-icons/fc'
+import { BiUpArrowAlt, BiDownArrowAlt } from "react-icons/bi";
+import WithDrawIcon from './asset/withdraw.png';
+import TopUpICon from './asset/topup.png';
+import TranferMoneyIcon from './asset/tranfermoney.png';
+import BillPaymentIcon from './asset/billPayment.png';
 import MyVerticallyCenteredModal from './component/bankModal/modalbt';
 import ToastSuccess from './component/toast/ToastSuccess';
 import ToastError from './component/toast/ToastError';
@@ -33,9 +38,9 @@ const App = () => {
   const toasterr = React.useRef();
 
   useEffect(() => {
-    if (!window.localStorage.getItem("token")) {
-      return;
-    }
+    // if (!window.localStorage.getItem("token")) {
+    //   return;
+    // }
     dispatch(fetchUserAsync());
     getserviceCategory();
     getwallets();
@@ -66,8 +71,31 @@ const App = () => {
   const getalltransaction = async (userId) => {
     try {
       const res = await ewalletApi.getTransactionPage0(userId);
-      settransc(res.transactions);
-      console.log(res);
+      const temp = [];
+      res.transactions.map(item => {
+        switch (item.category) {
+          case "cashin":
+            temp.push({ ...item, icon: TopUpICon, increment: true });
+            break;
+          case "cashout":
+            temp.push({ ...item, icon: WithDrawIcon, increment: false });
+            break;
+
+          case "payment":
+            temp.push({ ...item, icon: BillPaymentIcon, increment: false });
+            break;
+
+          case "transfermoney":
+            temp.push({ ...item, icon: TranferMoneyIcon, increment: item.amount > 0 ? true : false });
+            break;
+
+          default:
+            temp.push(item);
+            break;
+        }
+      })
+      settransc(temp);
+      // console.log(res);
     }
     catch (err) {
       console.log(err.message);
@@ -92,7 +120,8 @@ const App = () => {
   const getserviceCategory = async () => {
     try {
       const res = await ewalletApi.getServiceCagetory();
-      setcategory(res)
+      console.log(res)
+      setcategory(res);
     }
     catch (err) {
       console.log(err.message);
@@ -170,7 +199,7 @@ const App = () => {
   return (
     <div className="App">
       <div className='row app__section'>
-        <div className='col-lg-8 app__section__left'>
+        <div className='col-lg-8  app__section__left'>
           <div className='app__section__left__wallet'>
             <div className="app__section__left__wallet__header">
               <h2>My wallet</h2>
@@ -211,7 +240,7 @@ const App = () => {
             ) : null}
 
             <div className="app__section__left__wallet__content">
-              <h2>All wallets</h2>
+              <h2>All cards</h2>
               {wallet.length > 0 ? (
                 wallet.map((item, index) => (
                   <div key={index} className={`app__section__left__wallet__list ${item.active ? 'active' : ''}`}>
@@ -242,31 +271,36 @@ const App = () => {
             </div>
           </div>
           <div className='App__title'>
-            <div><i className='bx bx-wallet'></i>Your balance: {user.balance} $</div>
+            <div><i className='bx bx-wallet'></i> Your balance: {user.balance} $</div>
           </div>
           <div className='app__section__left__transaction'>
             <div className='app__section__left__transaction__header' >
               <div className='app__section__left__transaction__header__title'>
                 <div>Lasted Transaction</div>
               </div>
-              <div className='app__section__left__transaction__header__button'>
-                <Link to='/transaction'>View All</Link>
-              </div>
+              <button className='app__section__left__transaction__header__button'>
+                <Link to='/transaction'>More</Link>
+              </button>
             </div>
             <div className="app__section__left__transaction__content">
               {
                 transc.length > 0 ? (
                   transc.map((item, index) => (
                     <div key={index} className="flex p-20 items-center mb-4 bg-light text-dark">
-                      <div className='font-semibold bg-green p-2'><FcMoneyTransfer className='icon' /></div>
+                      <div className='font-semibold bg-green p-2'>
+                        <img src={item.icon} className='icon' />
+                        {/* <FcMoneyTransfer className='icon' /> */}
+                      </div>
                       <div className='ml-4'>
-                        <div className=' font-semibold '>{item.froms}</div>
-                        <div className=' font-semibold text-gray-400'>{item.transaction_date}</div>
+                        <div className='text-2xl font-semibold text-gray-700'>From: {item.froms}</div>
+                        <div className=' font-semibold text-gray-400'>Type: {item.category}</div>
+                        <div className=' font-semibold text-gray-400'>Date: {item.created_date}</div>
                       </div>
                       <div className='ml-auto text-2xl font-semibold'>
-                        Amount:
-                        {/* {item.category == "cashin" ? (<i>+</i>) : (<i>-</i>)} */}
-                        {item.amount}$</div>
+                        {/* Amount: */}
+                        {item.increment ? <div><i><BiUpArrowAlt style={{ color: 'green', fontSize: '60px' }} /></i>+${item.amount}</div> : <div><i><BiDownArrowAlt style={{ color: 'red', fontSize: '60px' }} /></i>-${Math.abs(item.amount)}</div>}
+                        {/* {item.amount}$ */}
+                      </div>
                     </div>
                   ))
                 ) : null

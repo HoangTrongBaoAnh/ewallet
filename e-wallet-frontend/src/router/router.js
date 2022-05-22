@@ -3,6 +3,7 @@ import {
     BrowserRouter as Router,
     Routes,
     Route,
+    unstable_HistoryRouter as HistoryRouter
 
 } from "react-router-dom";
 import LoginPage from '../pages/login/login'
@@ -19,16 +20,19 @@ import Card from "../pages/admin/card/Card";
 import Bank from "../pages/admin/bank/Bank";
 import Bill from "../pages/admin/Bill/Bill";
 import Customer from "../pages/admin/customer/Customer";
-import Transaction from "../pages/admin/transactions/Transactions";
 import ProfilePage from "../pages/ProfilePage/ProfilePage";
 //import RegisterPage from '../pages/RegisterPage'
 import App from '../App'
 import Transactions from "../pages/admin/transactions/Transactions";
 
+import customHistory from './history';
+import CustomRouter  from './customRouter';
+
 export default class Routerx extends Component {
     render() {
         return (
-            <Router>
+            <HistoryRouter history={customHistory}>
+                {/* {<AxiosInterceptorNavigate />} */}
                 <Routes>
                     <Route exact path="/login" element={<LoginPage />} />
                     <Route exact path="/register" element={<RegisterPage />} />
@@ -51,7 +55,7 @@ export default class Routerx extends Component {
                     </Route>
 
                 </Routes>
-            </Router>
+            </HistoryRouter>
         );
     }
 }

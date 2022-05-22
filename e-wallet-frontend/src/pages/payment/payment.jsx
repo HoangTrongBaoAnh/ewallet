@@ -114,6 +114,7 @@ const CustomerInput = (props) => {
     }
     catch (err){
       seterror(err);
+      console.log(err)
       props.toasterr.current.notify(err);
     }
   }

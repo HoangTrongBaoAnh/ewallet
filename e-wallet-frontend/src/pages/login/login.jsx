@@ -49,8 +49,8 @@ const Login = () => {
                             </div>
                         </div>
                         <Form.Group className='login__right__email'>
-                            <Form.Label className='login__right__email__label'>Email</Form.Label>
-                            <Form.Control isInvalid={error} value={email} onChange={e => setemail(e.target.value)} className='login__right__input' placeholder="John@example.com" />
+                            <Form.Label className='login__right__email__label'>User Name</Form.Label>
+                            <Form.Control isInvalid={error} value={email} onChange={e => setemail(e.target.value)} className='login__right__input' placeholder="example..." />
 
                         </Form.Group>
 

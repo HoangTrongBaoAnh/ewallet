@@ -66,6 +66,7 @@ const ProfilePage = () => {
         });
         try{
             await ewalletApi.editUser(user.id,data);
+            toggler();
         }
         catch (err) {
             console.log(err)
