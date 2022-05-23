@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink, Outlet } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 import AdminNavBar from '../../component/adminNavBar/AdminNavBar'
 import AdminSideBar from '../../component/adminSideBar/AdminSideBar'
 const adminlayout = () => {

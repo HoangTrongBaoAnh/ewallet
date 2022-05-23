@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react'
 import revenue from '../../asset/revenue.png'
-import baserequest from '../../core/baserequest';
 import ewalletApi from '../../core/ewalletApi';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -20,7 +19,7 @@ import {
     Filler,
 } from 'chart.js';
 
-import { Chart as ChartJS2, Line, Pie, getElementAtEvent } from 'react-chartjs-2';
+import { Line, Pie } from 'react-chartjs-2';
 ChartJS.register(
     CategoryScale,
     ArcElement,
@@ -258,13 +257,13 @@ export const byCategoriesOptions = {
 };
 const Chart = () => {
     const chartRef = useRef();
-    const onMouseOver = (event) => {
-        var chart = getElementAtEvent(chartRef.current, event);
-        //console.log(chart);
-        chart[0].element.options.offset = 100;
-        chart[0].element.options.spacing = 10;
-        console.log(chart[0].element)
-    }
+    // const onMouseOver = (event) => {
+    //     var chart = getElementAtEvent(chartRef.current, event);
+    //     //console.log(chart);
+    //     chart[0].element.options.offset = 100;
+    //     chart[0].element.options.spacing = 10;
+    //     console.log(chart[0].element)
+    // }
     const [chartData, setChartData] = useState([]);
     const [chartByCategoriesData, setchartByCategoriesData] = useState([]);
     const labels = chartData.map((item) => item.transcmonth);
@@ -369,12 +368,12 @@ const Chart = () => {
                     temp[i] = { transcmonth: months[i], amount: 0 };
                 }
             }
-            res.map(item => {
+            res.forEach(item => {
                 temp[item.transcmonth] = { ...item, transcmonth: months[item.transcmonth] };
             })
 
             var sum = 0;
-            res.map(item => {
+            res.forEach(item => {
                 sum += item.amount;
             })
             setdiff(sum);
@@ -408,7 +407,7 @@ const Chart = () => {
                                     <div className='sumary__label'>Venue</div>
                                     <div className='sumary__value'>{diff > 0 ? <div><i><BiUpArrowAlt style={{ color: 'green', fontSize: '60px' }} /></i>+${diff}</div> : <div><i><BiDownArrowAlt style={{ color: 'red', fontSize: '60px' }} /></i>-${Math.abs(diff)}</div>}</div>
                                 </div>
-                                <img className='sumary__img ml-auto' src={revenue} />
+                                <img className='sumary__img ml-auto' src={revenue} alt='revenue'/>
                             </div>
                         </div>
                         <div className='col-lg-8'></div>

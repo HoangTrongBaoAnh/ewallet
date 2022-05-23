@@ -2,7 +2,7 @@ const axios = require("axios");
 const apiUrl = "http://localhost:8080/api/";
 
 
-export default {
+const baserequest = {
   getHeaders() {
     let token = window.localStorage.getItem("token");
     if (token == null) {
@@ -23,3 +23,5 @@ export default {
     return axios.delete(apiUrl + url, { headers: this.getHeaders() });
   }
 };
+
+export default baserequest;

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {
-    BrowserRouter as Router,
+    // BrowserRouter as Router,
     Routes,
     Route,
     unstable_HistoryRouter as HistoryRouter
@@ -26,7 +26,7 @@ import App from '../App'
 import Transactions from "../pages/admin/transactions/Transactions";
 
 import customHistory from './history';
-import CustomRouter  from './customRouter';
+// import CustomRouter  from './customRouter';
 
 export default class Routerx extends Component {
     render() {

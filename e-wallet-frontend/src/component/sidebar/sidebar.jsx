@@ -1,5 +1,5 @@
-import React, { useState, useRef, useEffect } from 'react'
-import { Link, NavLink, useNavigate } from 'react-router-dom'
+import React from 'react'
+import { NavLink, useNavigate } from 'react-router-dom'
 import 'boxicons/css/boxicons.min.css'
 import { useSelector } from 'react-redux';
 
@@ -37,7 +37,7 @@ const Sidebar = () => {
     // const [activeindex,setactiveindex] = useState(0);
     // const [stepHeight, setStepHeight] = useState(0);
 
-    const sidebarRef = useRef();
+    // const sidebarRef = useRef();
     // const indicatorRef = useRef();
     // let activeStyle = {
     //     color: '#1F2937', borderBottom: '3px solid red'

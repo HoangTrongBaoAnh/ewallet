@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import { Button, Table, Modal, Form, Col, Row } from 'react-bootstrap';
+import { Button, Modal, Form} from 'react-bootstrap';
 import './Bill.scss';
 import MUIDataTable from "mui-datatables";
 import baserequest from '../../../core/baserequest';
@@ -9,9 +9,8 @@ import ewalletApi from '../../../core/ewalletApi';
 const Bill = () => {
     const [show, setShow] = React.useState(false);
     const [edititem, setedititem] = useState({ name: "defaultvalue" });
-    const [activewallet, setactivewallet] = useState({});
 
-    const handleClose = () => setShow(false);
+    // const handleClose = () => setShow(false);
     const handleShow = (index, item) => {
         setedititem(item)
         seteditedindex(index);
@@ -26,7 +25,7 @@ const Bill = () => {
         await baserequest.get("bill")
             .then(res => {
                 var tmp = [];
-                res.data.map(item => {
+                res.data.forEach(item => {
                     tmp.push([item.id, item.customerName, item.customercode, item.amount, item.status, item.cagetory_id])
                 });
                 setbills(tmp);
@@ -224,7 +223,7 @@ function MyVerticallyCenteredModal(props) {
         return () => {
             // setname("")
         }
-    }, [props.show])
+    }, [props.show,props.edittedindex,props.edititem])
 
     const fetchCategories = async () => {
         await baserequest.get("category")

@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
-import baserequest from '../../core/baserequest';
 import ewalletApi from '../../core/ewalletApi';
 
 import './modalbt.scss'
@@ -43,7 +42,6 @@ const StepForm = ({ getwallets, setshow, show, user, setbankactive, bankactive }
     const [otp, setotp] = useState("");
     const [err, seterr] = useState(false);
     const [loading, setloading] = useState(false);
-    const [status, setstatus] = useState(false);
     const [active, setactive] = useState(false);
     const [ocb, setocb] = useState([]);
 
@@ -122,7 +120,7 @@ const StepForm = ({ getwallets, setshow, show, user, setbankactive, bankactive }
 
                     setocb(res);
                     try {
-                        const res = await ewalletApi.sendSms(cardnumber);
+                        await ewalletApi.sendSms(cardnumber);
                         setloading(false);
                         document.getElementById('nextBtn').disabled = false;
                         document.getElementsByClassName('otpMailNotify')[0].style.display = "block";
@@ -179,15 +177,15 @@ const StepForm = ({ getwallets, setshow, show, user, setbankactive, bankactive }
             ) {
                 var x = document.getElementsByClassName("tab");
 
-                n == 0 ? x[n].style.display = "flex" : x[n].style.display = "block";
+                n === 0 ? x[n].style.display = "flex" : x[n].style.display = "block";
 
                 //... and fix the Previous/Next buttons:
-                if (n == 0) {
+                if (n === 0) {
                     document.getElementById("prevBtn").style.display = "none";
                 } else {
                     document.getElementById("prevBtn").style.display = "inline";
                 }
-                if (n == (x.length - 1)) {
+                if (n === (x.length - 1)) {
                     var b = document.getElementById("nextBtn");
 
                     b.innerHTML = "Submit";
@@ -257,7 +255,7 @@ const StepForm = ({ getwallets, setshow, show, user, setbankactive, bankactive }
                             banks.map((item, index) => (
                                 <div key={index} className="bankbody col-lg-3" onClick={e => handle(e, item)}>
                                     {/* <img src={"https://www.baokim.vn/new_base/images/logo_partner/Bank/" + item.short_name.toLowerCase() + '.png'} /> */}
-                                    <img src={item.url} />
+                                    <img src={item.url} alt={item.name}/>
                                     <div className='bankbody__banktitle'>{item.name}</div>
 
                                 </div>

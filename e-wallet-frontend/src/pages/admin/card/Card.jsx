@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import { Button, Table, Modal, Form } from 'react-bootstrap';
+import { Button, Modal, Form } from 'react-bootstrap';
 import './card.scss';
 import baserequest from '../../../core/baserequest';
 import MUIDataTable from "mui-datatables";
@@ -9,7 +9,7 @@ import MUIDataTable from "mui-datatables";
 const Card = () => {
     const [show, setShow] = React.useState(false);
     const [edititem, setedititem] = useState({ name: "defaultvalue" });
-    const handleClose = () => setShow(false);
+    // const handleClose = () => setShow(false);
     const handleShow = (index, item) => {
         setedititem(item)
         seteditedindex(index);
@@ -24,7 +24,7 @@ const Card = () => {
         await baserequest.get("card")
             .then(res => {
                 var tmp = [];
-                res.data.map(item => {
+                res.data.forEach(item => {
                     tmp.push([item.id, item.cardnumber, item.balance,item.securitycode, item.bank_id])
                 });
                 setcard(tmp);

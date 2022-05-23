@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useNavigate, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 
 import baserequest from './core/baserequest'
@@ -8,7 +8,6 @@ import { fetchUserAsync } from './store/auth/authreducer';
 import socket from './socket/socket'
 
 import { Form, Button, Tabs, Tab } from 'react-bootstrap'
-import { FcMoneyTransfer } from 'react-icons/fc'
 import { BiUpArrowAlt, BiDownArrowAlt } from "react-icons/bi";
 import WithDrawIcon from './asset/withdraw.png';
 import TopUpICon from './asset/topup.png';
@@ -45,34 +44,35 @@ const App = () => {
     getserviceCategory();
     getwallets();
     socket.connect();
+    const waitForUser = async () => {
+      await baserequest.post('auth/userDetail')
+        .then(res => {
+          getalltransaction(res.data.id)
+          socket.on('sendDataServer', dataGot => {
+            // console.log(dataGot.data.id + ' - ' + user.username)
+            if (dataGot.data.id === res.data.username) {
+              childFunc.current.notify(dataGot.data.content);
+              getalltransaction(res.data.id);
+            }
+          })
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+    }
     waitForUser();
     return () => {
       socket.disconnect();
     };
-  }, []);
+  }, [dispatch]);
 
-  const waitForUser = async () => {
-    await baserequest.post('auth/userDetail')
-      .then(res => {
-        getalltransaction(res.data.id)
-        socket.on('sendDataServer', dataGot => {
-          // console.log(dataGot.data.id + ' - ' + user.username)
-          if (dataGot.data.id == res.data.username) {
-            childFunc.current.notify(dataGot.data.content);
-            getalltransaction(res.data.id);
-          }
-        })
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
-  }
+  
 
   const getalltransaction = async (userId) => {
     try {
       const res = await ewalletApi.getTransactionPage0(userId);
       const temp = [];
-      res.transactions.map(item => {
+      res.transactions.forEach(item => {
         switch (item.category) {
           case "cashin":
             temp.push({ ...item, icon: TopUpICon, increment: true });
@@ -106,7 +106,7 @@ const App = () => {
     try {
       const res = await ewalletApi.getWallet();
       setwallet(res)
-      res.map(item => {
+      res.forEach(item => {
         if (item.active) {
           setactivewallet(item);
         }
@@ -288,7 +288,7 @@ const App = () => {
                   transc.map((item, index) => (
                     <div key={index} className="flex p-20 items-center mb-4 bg-light text-dark">
                       <div className='font-semibold bg-green p-2'>
-                        <img src={item.icon} className='icon' />
+                        <img src={item.icon} className='icon' alt={item.category}/>
                         {/* <FcMoneyTransfer className='icon' /> */}
                       </div>
                       <div className='ml-4'>
@@ -351,7 +351,7 @@ const App = () => {
               category.map((item, index) => (
                 <Link key={index} to={`/payment/` + item.id} >
                   <div className='app__section__right__service__item' >
-                    <div><img className='app__section__right__service__item__img' src={item.url} /></div>
+                    <div><img className='app__section__right__service__item__img' src={item.url} alt={item.name}/></div>
                     <div className='ml-auto'>{item.name} <span><i className='bx bx-right-arrow'></i></span></div>
                   </div>
                 </Link>

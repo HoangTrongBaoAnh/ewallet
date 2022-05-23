@@ -38,7 +38,7 @@ const Payment = () => {
   };
 
   const handleStep = (val) => {
-    if (val != step) {
+    if (val !== step) {
       setstep(val);
       console.log(val)
     }
@@ -83,14 +83,14 @@ const Payment = () => {
         <RenderSwitch />
         <div className='stepIndicator'>
           {[...Array(2)].map((e, i) => {
-            return <span key={i} className={"step " + (i == step - 1 ? 'active' : '')} onClick={() => handleStep(i + 1)}></span>
+            return <span key={i} className={"step " + (i === step - 1 ? 'active' : '')} onClick={() => handleStep(i + 1)}></span>
           })}
 
         </div>
       </div>
       <div id="myModal" className="modalImage">
         <span className="close" onClick={closeModalImage}>&times;</span>
-        <img className="modalImage-content" id="img01" />
+        <img className="modalImage-content" id="img01" alt='example'/>
         <div id="caption"></div>
       </div>
       <ToastError ref={toasterr} />
@@ -203,7 +203,7 @@ const BillInfo = (props) => {
 
             <div className='button'>
               <Button className='btnBack' onClick={props.prevStep}>Back</Button>
-              {props.status == false ? <Button ref={buttonRef} className='btnNext' type="submit">
+              {props.status === false ? <Button ref={buttonRef} className='btnNext' type="submit">
                 Proceed to pay
               </Button> : null}
             </div>
@@ -211,14 +211,6 @@ const BillInfo = (props) => {
           </Form>
         ) : null}
       </div>
-    </div>
-  )
-}
-
-const ConfirmInfo = (props) => {
-  return (
-    <div>
-
     </div>
   )
 }

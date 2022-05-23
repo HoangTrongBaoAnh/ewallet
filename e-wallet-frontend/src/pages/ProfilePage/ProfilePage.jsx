@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { Form, Button, Tabs, Tab, Row, Col, Nav } from 'react-bootstrap'
+import { Form, Button, Tab, Row, Col, Nav } from 'react-bootstrap'
 import './profilepage.scss';
 import ewalletApi from '../../core/ewalletApi';
-import baserequest from '../../core/baserequest';
 import ListTransactions from '../../component/ListTransaction/ListTransactions';
 import { useSelector } from 'react-redux'
 import 'boxicons/css/boxicons.min.css'
@@ -21,7 +20,7 @@ const ProfilePage = () => {
         //form_ele.classList.add('form--disabled')
         disableFormEdit(form_ele[0]);
 
-    }, [])
+    }, [form_ele])
 
     const disableFormEdit = function (selector) {
         selector.classList.add('form--disabled');
@@ -54,6 +53,8 @@ const ProfilePage = () => {
                 disableFormEdit(form_ele[0]);
                 //   $(this).text('click to edit')
                 break;
+            default: 
+                break
         }
     }
 

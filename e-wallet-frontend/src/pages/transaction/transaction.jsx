@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector, useDispatch } from "react-redux";
 import { withRouter } from '../../router/withRouter';
-import baserequest from '../../core/baserequest';
 import ewalletApi from '../../core/ewalletApi';
 import socket from '../../socket/socket'
 import { fetchUserAsync } from '../../store/auth/authreducer';

@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import * as actionType from './authtype'
+// import * as actionType from './authtype'
 import baserequest from '../../core/baserequest';
 const initialState = {
     user: [],

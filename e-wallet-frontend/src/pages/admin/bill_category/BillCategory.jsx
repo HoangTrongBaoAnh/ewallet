@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import { Button, Table, Modal, Form } from 'react-bootstrap';
+import { Button, Modal, Form } from 'react-bootstrap';
 import MUIDataTable from "mui-datatables";
 import './billCategory.scss';
 import baserequest from '../../../core/baserequest';
@@ -8,7 +8,7 @@ import baserequest from '../../../core/baserequest';
 const BillCategory = () => {
     const [show, setShow] = React.useState(false);
     const [edititem, setedititem] = useState({ name: "defaultvalue" });
-    const handleClose = () => setShow(false);
+    //const handleClose = () => setShow(false);
     const handleShow = (index, item) => {
         setedititem(item)
         seteditedindex(index);
@@ -23,7 +23,7 @@ const BillCategory = () => {
         await baserequest.get("category")
             .then(res => {
                 var tmp = [];
-                res.data.map(item => {
+                res.data.forEach(item => {
                     tmp.push([item.id, item.name, item.url])
                 });
                 setcategory(tmp);
@@ -87,7 +87,7 @@ const BillCategory = () => {
             options: {
                 customBodyRender: (data) => {
                     return (
-                        <img className='inputImage' src={data} />
+                        <img className='inputImage' src={data} alt='img'/>
                     )
                 }
             }
@@ -119,30 +119,7 @@ const BillCategory = () => {
             <Button className='primary new' onClick={e => handleShow(1)}>
                 Add category
             </Button>
-            {/* <Table striped bordered hover>
-                <thead>
-                    <tr>
-                        <th>Customer ID</th>
-                        <th> Name</th>
-                        <th> Img</th>
-                        <th>Action</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {category.map((category, index) => (
-                        <tr key={index}>
-                            <td>{category.id}</td>
-                            <td>{category.name}</td>
-                            <td><img style={{height:"50px",width:"50px"}} src={category.url}/></td>
-
-                            <td><button onClick={e => handleShow(-1, category)}><i className='bx bx-edit'></i>Edit</button></td>
-                            <td><button onClick={e => deleteCate(category.id)}><i className='bx bx-trash'></i></button></td>
-                        </tr>
-                    ))}
-
-                </tbody>
-            </Table> */}
+            
             <MyVerticallyCenteredModal
                 show={show}
                 setcategory={setcategory}
@@ -174,11 +151,11 @@ function MyVerticallyCenteredModal(props) {
         return () => {
             setname("")
         }
-    }, [props.show])
-    const fetchCategories = async () => {
-        await baserequest.get("category")
-            .then(res => props.setcategory(res.data))
-    }
+    }, [props.show,props.edittedindex,props.edititem])
+    // const fetchCategories = async () => {
+    //     await baserequest.get("category")
+    //         .then(res => props.setcategory(res.data))
+    // }
 
     const createCate = (e) => {
         e.preventDefault();

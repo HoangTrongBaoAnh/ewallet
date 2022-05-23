@@ -1,13 +1,13 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import { Button, Table, Modal, Form, Col, Row } from 'react-bootstrap';
+import { Button, Modal, Form } from 'react-bootstrap';
 import MUIDataTable from "mui-datatables";
 import './bank.scss';
 import baserequest from '../../../core/baserequest';
 const Bank = () => {
     const [show, setShow] = React.useState(false);
     const [edititem, setedititem] = useState({ name: "defaultvalue" });
-    const handleClose = () => setShow(false);
+    // const handleClose = () => setShow(false);
     const handleShow = (index, item) => {
         setedititem(item)
         seteditedindex(index);
@@ -23,7 +23,7 @@ const Bank = () => {
             .then(res => {
                 console.log(res.data);
                 var tmp = [];
-                res.data.map(item => {
+                res.data.forEach(item => {
                     tmp.push([item.id, item.name, item.url])
                 })
                 setbanks(tmp);
@@ -81,7 +81,7 @@ const Bank = () => {
             options: {
                 customBodyRender: (data) => {
                     return (
-                        <img className='inputImage' src={data} />
+                        <img className='inputImage' src={data} alt='img'/>
                     )
                 }
             }
@@ -113,36 +113,7 @@ const Bank = () => {
             <Button className='primary new' onClick={e => handleShow(1)}>
                 Add bank
             </Button>
-            {/* <Table striped bordered hover>
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Name</th>
-                        <th>Img</th>
-                        <th>Action</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {
-                        banks.length > 0 ? (
-                            banks.map((item, index) => (
-                                <tr key={index}>
-                                    <td>{item.id}</td>
-                                    <td>{item.name}</td>
-                                    <td><img style={{ height: "50px", width: "50px" }} src={item.url} /></td>
-
-                                    <td>
-                                        <button onClick={e => handleShow(-1, item)}><i className='bx bx-edit'></i>Edit</button>
-                                        <button onClick={e => deleteCate(item.id)}><i className='bx bx-trash'></i></button>
-                                    </td>
-                                </tr>
-                            ))
-                        ) : null
-                    }
-
-                </tbody>
-            </Table> */}
+            
             <MyVerticallyCenteredModal
                 show={show}
                 setbanks={setbanks}
@@ -173,11 +144,11 @@ function MyVerticallyCenteredModal(props) {
         return () => {
             setname("")
         }
-    }, [props.show])
-    const fetchCategories = async () => {
-        await baserequest.get("bank")
-            .then(res => props.setbanks(res.data))
-    }
+    }, [props.show,props.edittedindex,props.edititem])
+    // const fetchCategories = async () => {
+    //     await baserequest.get("bank")
+    //         .then(res => props.setbanks(res.data))
+    // }
 
     const createCate = (e) => {
         e.preventDefault();

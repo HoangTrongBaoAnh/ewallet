@@ -4,7 +4,6 @@ import React, { useEffect, useState, forwardRef, useImperativeHandle } from 'rea
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ewalletApi from '../../core/ewalletApi';
 
-import { FcMoneyTransfer } from 'react-icons/fc'
 import WithDrawIcon from '../../asset/withdraw.png';
 import TopUpICon from '../../asset/topup.png';
 import TranferMoneyIcon from '../../asset/tranfermoney.png';
@@ -44,7 +43,7 @@ const ListTransactions = forwardRef((props, ref) => {
             setTotalpage(res.totalPages)
             setCurrentPage(res.currentPage)
             settransc(res.transactions)
-            res.transactions.map(item => {
+            res.transactions.forEach(item => {
 
                 var year = item.created_date.substring(0, 4);
                 var month = item.created_date.substring(5, 7);
@@ -80,7 +79,8 @@ const ListTransactions = forwardRef((props, ref) => {
 
             })
 
-            var reverorderd = new Map(), key = [], k = [];
+            //var reverorderd = new Map()
+            var k = [];
             Object.keys(byYearAndByMonth).sort().reverse()
                 .forEach(key2 => {
                     //console.log(key)
@@ -98,7 +98,7 @@ const ListTransactions = forwardRef((props, ref) => {
 
             })
 
-            const obj = Object.fromEntries(reverorderd);
+            //const obj = Object.fromEntries(reverorderd);
             setbyYearAndByMonthP(k);
             //console.log(byYearAndByMonthP)
         }
@@ -121,7 +121,7 @@ const ListTransactions = forwardRef((props, ref) => {
                                             datamonth.data.map((item, index) => (
                                                 <div key={index} className="flex p-20 items-center mb-4 bg-light text-dark">
                                                     <div className='font-semibold bg-green p-2'>
-                                                        <img src={item.icon} className='icon'/>
+                                                        <img src={item.icon} className='icon' alt='icon'/>
                                                         {/* <FcMoneyTransfer className='icon' /> */}
                                                     </div>
                                                     <div className='ml-4'>

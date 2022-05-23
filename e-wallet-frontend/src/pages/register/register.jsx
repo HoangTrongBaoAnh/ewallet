@@ -1,10 +1,9 @@
 import './register.scss';
 import { useState } from 'react';
-import baserequest from '../../core/baserequest';
 import ewalletApi from '../../core/ewalletApi';
 
 import { useNavigate } from 'react-router-dom';
-import { Button,Form } from 'react-bootstrap'
+import { Form } from 'react-bootstrap'
 const Login = () => {
     const [email, setemail] = useState("");
     const [password, setpassword] = useState("");
