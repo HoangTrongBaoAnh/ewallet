@@ -42,7 +42,7 @@ const StepForm = ({ getwallets, setshow, show, user, setbankactive, bankactive }
     const [otp, setotp] = useState("");
     const [err, seterr] = useState(false);
     const [loading, setloading] = useState(false);
-    const [active, setactive] = useState(false);
+    // const [active, setactive] = useState(false);
     const [ocb, setocb] = useState([]);
 
     const toastsucc = useRef();
@@ -148,7 +148,7 @@ const StepForm = ({ getwallets, setshow, show, user, setbankactive, bankactive }
     const handle = (e, item) => {
         e.preventDefault();
         setbankactive(item);
-        setactive(true);
+        // setactive(true);
     }
 
     useEffect(() => {
@@ -209,6 +209,7 @@ const StepForm = ({ getwallets, setshow, show, user, setbankactive, bankactive }
                 // Exit the function if any field in the current tab is invalid:
                 //if (n == 1 && Object.keys(bankactive).length < 0) return false;
                 // Hide the current tab:
+                // eslint-disable-next-line
                 x[currentTab].style.display = "none";
                 // Increase or decrease the current tab by 1:
                 currentTab = currentTab + n;

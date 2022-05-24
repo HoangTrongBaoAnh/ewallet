@@ -3,10 +3,11 @@ package com.hoangminh.controller;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.web.bind.annotation.CrossOrigin;
-
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -73,5 +74,11 @@ public class AuthController {
             logger.error(exc);
             throw new UnknownException("Unknown Error");
         }
+	}
+	
+	@PreAuthorize("hasRole('ADMIN')")
+	@GetMapping("/admin")
+	public String admin() {
+		return "admin content";
 	}
 }

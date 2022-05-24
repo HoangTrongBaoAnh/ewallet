@@ -9,7 +9,6 @@ import TopUpICon from '../../asset/topup.png';
 import TranferMoneyIcon from '../../asset/tranfermoney.png';
 import BillPaymentIcon from '../../asset/billPayment.png';
 
-import { useNavigate } from 'react-router-dom';
 import { BiUpArrowAlt, BiDownArrowAlt } from "react-icons/bi";
 
 import Pagination from '../../component/pagination/pagination';
@@ -20,23 +19,17 @@ const ListTransactions = forwardRef((props, ref) => {
             getalltransaction();
         },
     }))
-    const navigate = useNavigate();
     const [totalPage, setTotalpage] = useState(0);
     const [currenPage, setCurrentPage] = useState(0);
     const [transc, settransc] = useState([]);
-    useEffect(() => {
-        if (window.localStorage.getItem("token")) {
-            getalltransaction();
-        }
-        else {
-            navigate('/login')
-        }
-    }, [currenPage]);
 
     var byYearAndByMonth = {};
-
     const [byYearAndByMonthP, setbyYearAndByMonthP] = useState({});
     const user = useSelector(state => state.auth.user)
+    useEffect(() => {
+        getalltransaction();
+    }, [currenPage]);
+    
     const getalltransaction = async () => {
         try {
             const res = await ewalletApi.getAllTransaction(user.id, currenPage);
@@ -55,22 +48,22 @@ const ListTransactions = forwardRef((props, ref) => {
                     byYearAndByMonth[year][month] = [];
                 }
 
-                switch (item.category){
+                switch (item.category) {
                     case "cashin":
-                        byYearAndByMonth[year][month].push({...item,icon: TopUpICon,increment:true});
+                        byYearAndByMonth[year][month].push({ ...item, icon: TopUpICon, increment: true });
                         break;
                     case "cashout":
-                        byYearAndByMonth[year][month].push({...item,icon: WithDrawIcon,increment:false});
+                        byYearAndByMonth[year][month].push({ ...item, icon: WithDrawIcon, increment: false });
                         break;
-                        
+
                     case "payment":
-                        byYearAndByMonth[year][month].push({...item,icon: BillPaymentIcon,increment:false});
+                        byYearAndByMonth[year][month].push({ ...item, icon: BillPaymentIcon, increment: false });
                         break;
-                        
+
                     case "transfermoney":
-                        byYearAndByMonth[year][month].push({...item,icon: TranferMoneyIcon,increment:item.amount > 0? true:false});
+                        byYearAndByMonth[year][month].push({ ...item, icon: TranferMoneyIcon, increment: item.amount > 0 ? true : false });
                         break;
-                        
+
                     default:
                         byYearAndByMonth[year][month].push(item);
                         break;
@@ -106,6 +99,7 @@ const ListTransactions = forwardRef((props, ref) => {
             console.log(err.message);
         }
     }
+
     return (
         <div className='max-w-6xl mx-auto'>
             <div className='flex-1 text-3xl font-medium text-gray-700 pt-3'>Transaction history</div>
@@ -121,7 +115,7 @@ const ListTransactions = forwardRef((props, ref) => {
                                             datamonth.data.map((item, index) => (
                                                 <div key={index} className="flex p-20 items-center mb-4 bg-light text-dark">
                                                     <div className='font-semibold bg-green p-2'>
-                                                        <img src={item.icon} className='icon' alt='icon'/>
+                                                        <img src={item.icon} className='icon' alt='icon' />
                                                         {/* <FcMoneyTransfer className='icon' /> */}
                                                     </div>
                                                     <div className='ml-4'>

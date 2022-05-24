@@ -1,6 +1,11 @@
 import axiosClient from "./axiosClient";
 
 const ewalletApi = {
+    //admin verify
+    adminVerify: () => {
+        const url = 'auth/admin';
+        return axiosClient.get(url);
+    },
     //login
     signIn: (data) => {
         const url = 'auth/signin';

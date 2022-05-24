@@ -31,7 +31,7 @@ axiosClient.interceptors.response.use(
             //return Promise.reject(error.response.data.message);
             throw error.response.data.message;       
         }
-        else if(error.response.status === 401){
+        else if(error.response.status === 401 || error.response.status === 403){
             // navigate('/login');
             window.alert("Please sign in before continue!");
             history.replace("/login");

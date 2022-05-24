@@ -280,18 +280,14 @@ const Chart = () => {
                 backgroundColor: 'rgba(255, 99, 132, 0.5)',
                 fill: true,
                 tension: 0.4
-
             },
-
         ],
     };
 
     const byCategoriesDataCount = {
         labels: chartByCategoriesData.map(item => item.name),
-
         datasets: [
             {
-
                 data: chartByCategoriesData.map(item => item.count),
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
@@ -359,37 +355,37 @@ const Chart = () => {
 
     // const chartRef = useRef<HTMLCanvasElement>(null)
 
-    const chartdata = async () => {
-        try {
-            const res = await ewalletApi.getDataLineChart();
-            var temp = [];
-            for (let i = 1; i <= 12; i++) {
-                if (typeof temp[i] === "undefined") {
-                    temp[i] = { transcmonth: months[i], amount: 0 };
-                }
-            }
-            res.forEach(item => {
-                temp[item.transcmonth] = { ...item, transcmonth: months[item.transcmonth] };
-            })
-
-            var sum = 0;
-            res.forEach(item => {
-                sum += item.amount;
-            })
-            setdiff(sum);
-            temp.shift()
-            setChartData(temp);
-        }
-        catch (err) {
-            console.log(err)
-        }
-    }
-
-    const chartByCategoriesdata = async () => {
-        const res = await ewalletApi.getDataPieChart();
-        setchartByCategoriesData(res)
-    }
     useEffect(() => {
+        const chartdata = async () => {
+            try {
+                const res = await ewalletApi.getDataLineChart();
+                var temp = [];
+                for (let i = 1; i <= 12; i++) {
+                    if (typeof temp[i] === "undefined") {
+                        temp[i] = { transcmonth: months[i], amount: 0 };
+                    }
+                }
+                res.forEach(item => {
+                    temp[item.transcmonth] = { ...item, transcmonth: months[item.transcmonth] };
+                })
+    
+                var sum = 0;
+                res.forEach(item => {
+                    sum += item.amount;
+                })
+                setdiff(sum);
+                temp.shift()
+                setChartData(temp);
+            }
+            catch (err) {
+                console.log(err)
+            }
+        }
+    
+        const chartByCategoriesdata = async () => {
+            const res = await ewalletApi.getDataPieChart();
+            setchartByCategoriesData(res)
+        }
 
         //form_ele.classList.add('form--disabled')
         chartByCategoriesdata();
