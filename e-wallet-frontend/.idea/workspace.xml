@@ -85,30 +85,30 @@
         <subPane>
           <expand>
             <path>
-              <item name="kaasi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaasi" type="462c0819:PsiDirectoryNode" />
+              <item name="ewallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ewallet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kaasi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaasi" type="462c0819:PsiDirectoryNode" />
+              <item name="ewallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ewallet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kaasi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaasi" type="462c0819:PsiDirectoryNode" />
+              <item name="ewallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ewallet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kaasi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaasi" type="462c0819:PsiDirectoryNode" />
+              <item name="ewallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ewallet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kaasi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaasi" type="462c0819:PsiDirectoryNode" />
+              <item name="ewallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ewallet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
@@ -126,7 +126,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="D:\IT\Internship\Frontend\kaasi\node_modules\eslint" />
+    <property name="node.js.selected.package.eslint" value="D:\IT\Internship\Frontend\ewallet\node_modules\eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
